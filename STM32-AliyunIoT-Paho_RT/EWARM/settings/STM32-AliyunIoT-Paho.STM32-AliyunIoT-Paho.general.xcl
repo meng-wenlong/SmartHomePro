@@ -1,0 +1,15 @@
+"E:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\bin\armproc.dll" 
+
+"E:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\bin\armstlink2.dll" 
+
+"H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Exe\STM32-AliyunIoT-Paho.out" 
+
+--plugin="E:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\bin\armbat.dll" 
+
+--device_macro="E:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\config\debugger\ST\STM32L4xx.dmac" 
+
+--flash_loader="E:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\config\flashloader\ST\FlashSTM32L4SxxI.board" 
+
+
+
+

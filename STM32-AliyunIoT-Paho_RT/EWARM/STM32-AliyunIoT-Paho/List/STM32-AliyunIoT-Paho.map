@@ -1,0 +1,1600 @@
+###############################################################################
+#
+# IAR ELF Linker V8.32.1.169/W32 for ARM                  07/Nov/2020  18:55:59
+# Copyright 2007-2018 IAR Systems AB.
+#
+#    Output file  =  
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Exe\STM32-AliyunIoT-Paho.out
+#    Map file     =  
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\List\STM32-AliyunIoT-Paho.map
+#    Command line =  
+#        -f C:\Users\pc\AppData\Local\Temp\EW598.tmp
+#        (H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj\Ali_iot_network_wrapper.o
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj\Ali_iotclient.o
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj\app_x-cube-mems1.o
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj\bh1750_i2c_drv.o
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj\board.o
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj\clock.o
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj\cmd.o
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj\components.o
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj\context_iar.o
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj\cpu.o
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj\cpuport.o
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj\custom_bus.o
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj\custom_mems_processor.o
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj\emw3080.o
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj\emw3080_io.o
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj\flash_l4R.o
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj\hts221.o
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj\hts221_reg.o
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj\idle.o
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj\iot_flash_config.o
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj\ipc.o
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj\irq.o
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj\kservice.o
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj\main.o
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj\md.o
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj\md_wrap.o
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj\mem.o
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj\memheap.o
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj\mempool.o
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj\mqtt_msg_handler.o
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj\MQTTClient.o
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj\MQTTConnectClient.o
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj\MQTTConnectServer.o
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj\MQTTDeserializePublish.o
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj\MQTTFormat.o
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj\MQTTPacket.o
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj\MQTTSerializePublish.o
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj\MQTTSubscribeClient.o
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj\MQTTSubscribeServer.o
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj\MQTTUnsubscribeClient.o
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj\MQTTUnsubscribeServer.o
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj\msh.o
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj\net.o
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj\net_tcp_wifi.o
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj\object.o
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj\oled.o
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj\paho_timer.o
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj\platform_util.o
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj\scheduler.o
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj\sha1.o
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj\shell.o
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj\slab.o
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj\startup_stm32l4r5xx.o
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj\stm32l4xx_hal.o
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj\stm32l4xx_hal_cortex.o
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj\stm32l4xx_hal_dma.o
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj\stm32l4xx_hal_dma_ex.o
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj\stm32l4xx_hal_exti.o
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj\stm32l4xx_hal_flash.o
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj\stm32l4xx_hal_flash_ex.o
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj\stm32l4xx_hal_flash_ramfunc.o
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj\stm32l4xx_hal_gpio.o
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj\stm32l4xx_hal_i2c.o
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj\stm32l4xx_hal_i2c_ex.o
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj\stm32l4xx_hal_msp.o
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj\stm32l4xx_hal_pwr.o
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj\stm32l4xx_hal_pwr_ex.o
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj\stm32l4xx_hal_rcc.o
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj\stm32l4xx_hal_rcc_ex.o
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj\stm32l4xx_hal_tim.o
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj\stm32l4xx_hal_tim_ex.o
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj\stm32l4xx_hal_uart.o
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj\stm32l4xx_hal_uart_ex.o
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj\stm32l4xx_it.o
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj\system_stm32l4xx.o
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj\Task.o
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj\thread.o
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj\timer.o
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj\wifi.o
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj\wifi_net.o
+#        --redirect _Printf=_PrintfFull --redirect _Scanf=_ScanfFull
+#        --no_out_extension -o
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Exe\STM32-AliyunIoT-Paho.out
+#        --map
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\List\STM32-AliyunIoT-Paho.map
+#        --config
+#        H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\stm32l4r5xx_flash_custom.icf
+#        --semihosting --entry __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__Heap_Handler  = DLMalloc
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The advanced heap was selected because the application calls memory
+allocation functions outside of system library functions, and there
+are calls to deallocation functions in the application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x800'0000 { ro section .intvec };
+"P1":  place in [from 0x800'0000 to 0x81f'ffff] { ro };
+define block CSTACK with size = 2K, alignment = 8 { };
+define block HEAP with size = 2K, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2009'ffff] {
+          rw, block CSTACK, block HEAP };
+"P6":  place in [from 0x81f'8000 to 0x81f'ffff] { ro section UNINIT_FIXED_LOC };
+initialize by copy { rw };
+
+  Section            Kind         Address     Size  Object
+  -------            ----         -------     ----  ------
+"A0":                                        0x1bc
+  .intvec            ro code   0x800'0000    0x1bc  startup_stm32l4r5xx.o [1]
+                             - 0x800'01bc    0x1bc
+
+"P1":                                      0x110d0
+  .text              ro code   0x800'01bc   0x1520  dlmalloc.o [2]
+  .text              ro code   0x800'16dc      0x6  abort.o [2]
+  .text              ro code   0x800'16e2     0x7a  lz77_init_single.o [4]
+  .text              ro code   0x800'175c     0x2c  xgetmemchunk.o [2]
+  .text              ro code   0x800'1788      0x6  ABImemclr.o [4]
+  .text              ro code   0x800'178e     0x3a  zero_init3.o [4]
+  .text              ro code   0x800'17c8     0x14  exit.o [5]
+  .text              ro code   0x800'17dc     0x12  ABImemset_small.o [4]
+  .text              ro code   0x800'17ee     0x1e  xencoding_8859_1.o [2]
+  .text              ro code   0x800'180c     0x30  iarttio.o [5]
+  .text              ro code   0x800'183c      0xc  XShttio.o [2]
+  .text              ro code   0x800'1848   0x1494  stm32l4xx_hal_uart.o [1]
+  .text              ro code   0x800'2cdc    0x1cc  stm32l4xx_hal_msp.o [1]
+  .text              ro code   0x800'2ea8    0x7e0  main.o [1]
+  .text              ro code   0x800'3688     0x6c  stm32l4xx_hal_dma.o [1]
+  .text              ro code   0x800'36f4    0x41c  emw3080_io.o [1]
+  .text              ro code   0x800'3b10    0x116  stm32l4xx_hal_uart_ex.o [1]
+  .text              ro code   0x800'3c26      0x2  stm32l4xx_hal_uart_ex.o [1]
+  .text              ro code   0x800'3c28      0x2  stm32l4xx_hal_uart_ex.o [1]
+  .text              ro code   0x800'3c2a     0x1a  xsnprout.o [2]
+  .text              ro code   0x800'3c44    0x774  stm32l4xx_hal_rcc.o [1]
+  .text              ro code   0x800'43b8    0x106  I64DivMod_small.o [4]
+  .text              ro code   0x800'44be      0xa  xsprout.o [2]
+  .text              ro code   0x800'44c8      0x6  ABImemclr4.o [4]
+  .text              ro code   0x800'44d0     0xf0  stm32l4xx_hal_pwr_ex.o [1]
+  .text              ro code   0x800'45c0    0x30c  stm32l4xx_hal_gpio.o [1]
+  .text              ro code   0x800'48cc     0xc4  stm32l4xx_hal_cortex.o [1]
+  .text              ro code   0x800'4990     0x12  app_x-cube-mems1.o [1]
+  .text              ro code   0x800'49a4    0x2ec  thread.o [1]
+  .text              ro code   0x800'4c90    0x1c8  oled.o [1]
+  .text              ro code   0x800'4e58    0x590  kservice.o [1]
+  .text              ro code   0x800'53e8    0x91c  Ali_iotclient.o [1]
+  .text              ro code   0x800'5d04     0x40  Task.o [1]
+  .text              ro code   0x800'5d44     0x5c  paho_timer.o [1]
+  .text              ro code   0x800'5da0     0x58  bh1750_i2c_drv.o [1]
+  .text              ro code   0x800'5df8     0x18  ABImemcpy_small.o [4]
+  .text              ro code   0x800'5e10    0x584  stm32l4xx_hal_rcc_ex.o [1]
+  .text              ro code   0x800'6394    0x5f8  stm32l4xx_hal_tim.o [1]
+  .text              ro code   0x800'698c     0xe0  stm32l4xx_hal_tim_ex.o [1]
+  .text              ro code   0x800'6a6c    0x368  iot_flash_config.o [1]
+  .text              ro code   0x800'6dd4    0x1c0  net.o [1]
+  .text              ro code   0x800'6f94     0x5a  clock.o [1]
+  .text              ro code   0x800'6ff0     0x30  stm32l4xx_hal.o [1]
+  .text              ro code   0x800'7020      0x2  I64DivZer.o [4]
+  .text              ro code   0x800'7024     0x32  ABImemset48.o [4]
+  .text              ro code   0x800'7058     0xf6  custom_mems_processor.o [1]
+  .text              ro code   0x800'7150    0x140  context_iar.o [1]
+  .text              ro code   0x800'7290    0x16c  scheduler.o [1]
+  .text              ro code   0x800'73fc    0x120  object.o [1]
+  .text              ro code   0x800'751c    0x538  cpuport.o [1]
+  .text              ro code   0x800'7a54    0x1da  timer.o [1]
+  .text              ro code   0x800'7c30    0x2d4  mem.o [1]
+  .text              ro code   0x800'7f04    0x74e  stm32l4xx_hal_i2c.o [1]
+  .text              ro code   0x800'8654     0x44  snprintf.o [2]
+  .text              ro code   0x800'8698     0x14  strlen_small.o [4]
+  .text              ro code   0x800'86ac     0x40  sprintf.o [2]
+  .text              ro code   0x800'86ec     0xb4  Ali_iot_network_wrapper.o [1]
+  .text              ro code   0x800'87a0    0x6f8  MQTTClient.o [1]
+  .text              ro code   0x800'8e98    0x1c4  md.o [1]
+  .text              ro code   0x800'905c     0x1a  U32ToDbl.o [3]
+  .text              ro code   0x800'9078    0x246  DblDiv.o [3]
+  .text              ro code   0x800'92c0     0x3a  DblToS32.o [3]
+  .text              ro code   0x800'92fc      0xc  getchar.o [2]
+  .text              ro code   0x800'9308    0x23c  flash_l4R.o [1]
+  .text              ro code   0x800'9544      0x4  heaptramp0.o [2]
+  .text              ro code   0x800'9548    0x164  wifi.o [1]
+  .text              ro code   0x800'96ac    0x26e  net_tcp_wifi.o [1]
+  .text              ro code   0x800'991c    0x14c  iar_Stoulx.o [2]
+  .text              ro code   0x800'9a68     0x12  strcmp.o [4]
+  .text              ro code   0x800'9a7c    0x39e  hts221.o [1]
+  .text              ro code   0x800'9e1c    0x5f4  cmd.o [1]
+  .text              ro code   0x800'a410    0x130  ipc.o [1]
+  .text              ro code   0x800'a540      0x2  stm32l4xx_hal_i2c.o [1]
+  .text              ro code   0x800'a544    0xf46  xprintffull.o [2]
+  .text              ro code   0x800'b48c    0x1ce  MQTTPacket.o [1]
+  .text              ro code   0x800'b65c    0x294  MQTTConnectClient.o [1]
+  .text              ro code   0x800'b8f0     0xf0  MQTTDeserializePublish.o [1]
+  .text              ro code   0x800'b9e0    0x128  MQTTSerializePublish.o [1]
+  .text              ro code   0x800'bb08    0x148  MQTTSubscribeClient.o [1]
+  .text              ro code   0x800'bc50     0x14  platform_util.o [1]
+  .text              ro code   0x800'bc64     0x28  printf.o [2]
+  .text              ro code   0x800'bc8c    0x178  stm32l4xx_hal_flash.o [1]
+  .text              ro code   0x800'be04    0x1c0  stm32l4xx_hal_flash_ex.o [1]
+  .text              ro code   0x800'bfc4    0x7ec  emw3080.o [1]
+  .text              ro code   0x800'c7b0     0x14  isspace.o [2]
+  .text              ro code   0x800'c7c4     0x14  tolower.o [2]
+  .text              ro code   0x800'c7d8     0x58  memchr.o [4]
+  .text              ro code   0x800'c830    0x180  hts221_reg.o [1]
+  .text              ro code   0x800'c9b0     0x28  strncmp.o [2]
+  .text              ro code   0x800'c9d8     0xa4  xlocale_c.o [2]
+  .text              ro code   0x800'ca7c     0x16  strchr.o [4]
+  .text              ro code   0x800'ca94     0x40  xfail_s.o [2]
+  .text              ro code   0x800'cad4      0xa  xmbcurmax.o [2]
+  .text              ro code   0x800'cae0    0x1a2  DblMul.o [3]
+  .text              ro code   0x800'cc84     0x70  frexp.o [3]
+  .text              ro code   0x800'ccf4     0x2e  DblCmpLe.o [3]
+  .text              ro code   0x800'cd24     0x2e  DblCmpGe.o [3]
+  .text              ro code   0x800'cd54    0x13a  ldexp.o [3]
+  .text              ro code   0x800'ce90     0x22  S32ToDbl.o [3]
+  .text              ro code   0x800'ceb4     0xe2  DblSub.o [3]
+  .text              ro code   0x800'cf98     0x28  DblToU32.o [3]
+  .text              ro code   0x800'cfc0     0x18  strcpy.o [4]
+  .text              ro code   0x800'cfd8     0x30  strstr.o [2]
+  .text              ro code   0x800'd008    0x16a  DblAdd.o [3]
+  .text              ro code   0x800'd174   0x1020  sha1.o [1]
+  .rodata            const     0x800'e194    0x808  oled.o [1]
+  .rodata            const     0x800'e99c    0x500  oled.o [1]
+  .text              ro code   0x800'ee9c    0x3b4  shell.o [1]
+  .text              ro code   0x800'f250     0x1e  strncpy_small.o [4]
+  .text              ro code   0x800'f270    0x304  msh.o [1]
+  .text              ro code   0x800'f574     0x1e  strcat.o [2]
+  .text              ro code   0x800'f594    0x230  board.o [1]
+  .text              ro code   0x800'f7c4     0x2c  irq.o [1]
+  .text              ro code   0x800'f7f0     0x1e  stm32l4xx_hal.o [1]
+  .text              ro code   0x800'f810    0x100  system_stm32l4xx.o [1]
+  .text              ro code   0x800'f910     0xb0  components.o [1]
+  .text              ro code   0x800'f9c0      0x8  board.o [1]
+  .text              ro code   0x800'f9c8     0x28  data_init.o [4]
+  .text              ro code   0x800'f9f0     0xc0  idle.o [1]
+  .text              ro code   0x800'fab0    0x17c  wifi_net.o [1]
+  .text              ro code   0x800'fc2c    0x174  custom_bus.o [1]
+  .text              ro code   0x800'fda0     0x7e  stm32l4xx_hal_i2c_ex.o [1]
+  .rodata            const     0x800'fe20    0x12c  iot_flash_config.o [1]
+  .rodata            const     0x800'ff4c    0x12c  wifi_net.o [1]
+  .rodata            const     0x801'0078    0x124  main.o [1]
+  .text              ro code   0x801'019c    0x104  mqtt_msg_handler.o [1]
+  .rodata            const     0x801'02a0    0x100  kservice.o [1]
+  .rodata            const     0x801'03a0     0xd8  main.o [1]
+  .rodata            const     0x801'0478     0xc8  Ali_iotclient.o [1]
+  .rodata            const     0x801'0540     0xac  cmd.o [1]
+  .rodata            const     0x801'05ec     0xa8  cmd.o [1]
+  .rodata            const     0x801'0694     0x90  iot_flash_config.o [1]
+  .rodata            const     0x801'0724     0x88  Ali_iotclient.o [1]
+  .rodata            const     0x801'07ac     0x84  main.o [1]
+  .rodata            const     0x801'0830     0x80  main.o [1]
+  FSymTab                      0x801'08b0     0x80  <Block>
+    FSymTab          const     0x801'08b0      0x8  cmd.o [1]
+    FSymTab          const     0x801'08b8      0x8  cmd.o [1]
+    FSymTab          const     0x801'08c0      0x8  cmd.o [1]
+    FSymTab          const     0x801'08c8      0x8  cmd.o [1]
+    FSymTab          const     0x801'08d0      0x8  cmd.o [1]
+    FSymTab          const     0x801'08d8      0x8  cmd.o [1]
+    FSymTab          const     0x801'08e0      0x8  cmd.o [1]
+    FSymTab          const     0x801'08e8      0x8  cmd.o [1]
+    FSymTab          const     0x801'08f0      0x8  cmd.o [1]
+    FSymTab          const     0x801'08f8      0x8  cmd.o [1]
+    FSymTab          const     0x801'0900      0x8  cmd.o [1]
+    FSymTab          const     0x801'0908      0x8  cmd.o [1]
+    FSymTab          const     0x801'0910      0x8  mem.o [1]
+    FSymTab          const     0x801'0918      0x8  msh.o [1]
+    FSymTab          const     0x801'0920      0x8  msh.o [1]
+    FSymTab          const     0x801'0928      0x8  msh.o [1]
+  .rodata            const     0x801'0930     0x7c  Ali_iotclient.o [1]
+  .rodata            const     0x801'09ac     0x60  Ali_iotclient.o [1]
+  .rodata            const     0x801'0a0c     0x58  emw3080.o [1]
+  .rodata            const     0x801'0a64     0x58  MQTTClient.o [1]
+  .rodata            const     0x801'0abc     0x54  Ali_iotclient.o [1]
+  .rodata            const     0x801'0b10     0x50  kservice.o [1]
+  .rodata            const     0x801'0b60     0x50  iar_Stoulx.o [2]
+  .rodata            const     0x801'0bb0     0x4c  cmd.o [1]
+  .rodata            const     0x801'0bfc     0x4c  mqtt_msg_handler.o [1]
+  .rodata            const     0x801'0c48     0x40  flash_l4R.o [1]
+  .rodata            const     0x801'0c88     0x3c  mem.o [1]
+  .text              ro code   0x801'0cc4     0x3c  md_wrap.o [1]
+  .rodata            const     0x801'0d00     0x34  Ali_iotclient.o [1]
+  .rodata            const     0x801'0d34     0x30  md_wrap.o [1]
+  .rodata            const     0x801'0d64     0x30  mem.o [1]
+  .rodata            const     0x801'0d94     0x30  system_stm32l4xx.o [1]
+  .rodata            const     0x801'0dc4     0x2c  Ali_iotclient.o [1]
+  .rodata            const     0x801'0df0     0x2c  emw3080.o [1]
+  .rodata            const     0x801'0e1c     0x2c  flash_l4R.o [1]
+  .rodata            const     0x801'0e48     0x2c  net_tcp_wifi.o [1]
+  .text              ro code   0x801'0e74     0x28  stm32l4xx_it.o [1]
+  .rodata            const     0x801'0e9c     0x24  Ali_iotclient.o [1]
+  .rodata            const     0x801'0ec0     0x24  cmd.o [1]
+  .rodata            const     0x801'0ee4     0x24  emw3080.o [1]
+  .rodata            const     0x801'0f08     0x24  flash_l4R.o [1]
+  .rodata            const     0x801'0f2c     0x24  msh.o [1]
+  .text              ro code   0x801'0f50     0x22  fpinit_M.o [3]
+  .iar.init_table    const     0x801'0f74     0x20  - Linker created -
+  .text              ro code   0x801'0f94     0x1e  cmain.o [4]
+  .text              ro code   0x801'0fb2      0x4  exit.o [2]
+  .text              ro code   0x801'0fb8      0xa  cexit.o [4]
+  .text              ro code   0x801'0fc2     0x16  xprout.o [2]
+  .text              ro code   0x801'0fd8      0xc  putchar.o [2]
+  .text              ro code   0x801'0fe4     0x14  memset.o [4]
+  .text              ro code   0x801'0ff8     0x10  startup_stm32l4r5xx.o [1]
+  .rodata            const     0x801'1008      0xc  mem.o [1]
+  .text              ro code   0x801'1014      0xc  cstartup_M.o [4]
+  .rodata            const     0x801'1020      0x8  md_wrap.o [1]
+  .rodata            const     0x801'1028      0x8  system_stm32l4xx.o [1]
+  .rodata            const     0x801'1030      0x6  xlocale_c.o [2]
+  .rti_fn.0          const     0x801'1038      0x4  components.o [1]
+  .rti_fn.0.end      const     0x801'103c      0x4  components.o [1]
+  .rti_fn.1.end      const     0x801'1040      0x4  components.o [1]
+  .rti_fn.6          const     0x801'1044      0x4  shell.o [1]
+  .rti_fn.6.end      const     0x801'1048      0x4  components.o [1]
+  .text              ro code   0x801'104c      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'1050      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'1054      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'1058      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'105c      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'1060      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'1064      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'1068      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'106c      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'1070      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'1074      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'1078      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'107c      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'1080      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'1084      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'1088      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'108c      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'1090      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'1094      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'1098      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'109c      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'10a0      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'10a4      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'10a8      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'10ac      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'10b0      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'10b4      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'10b8      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'10bc      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'10c0      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'10c4      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'10c8      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'10cc      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'10d0      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'10d4      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'10d8      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'10dc      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'10e0      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'10e4      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'10e8      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'10ec      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'10f0      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'10f4      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'10f8      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'10fc      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'1100      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'1104      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'1108      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'110c      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'1110      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'1114      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'1118      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'111c      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'1120      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'1124      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'1128      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'112c      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'1130      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'1134      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'1138      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'113c      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'1140      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'1144      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'1148      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'114c      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'1150      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'1154      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'1158      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'115c      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'1160      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'1164      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'1168      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'116c      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'1170      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'1174      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'1178      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'117c      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'1180      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'1184      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'1188      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'118c      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'1190      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'1194      0x4  startup_stm32l4r5xx.o [1]
+  .text              ro code   0x801'1198      0x4  startup_stm32l4r5xx.o [1]
+  .rodata            const     0x801'119c      0x0  zero_init3.o [4]
+  .rodata            const     0x801'119c      0x0  lz77_init_single.o [4]
+  Initializer bytes  const     0x801'119c     0xf0  <for P2-1>
+                             - 0x801'128c  0x110d0
+
+"P6":                                        0x168
+  UNINIT_FIXED_LOC   uninit    0x81f'8000    0x168  iot_flash_config.o [1]
+                             - 0x81f'8168    0x168
+
+"P2", part 1 of 3:                           0x1d4
+  P2-1                        0x2000'0000    0x1d4  <Init block>
+    .data            inited   0x2000'0000     0x10  hts221.o [1]
+    .data            inited   0x2000'0010     0x14  hts221.o [1]
+    .data            inited   0x2000'0024     0x14  hts221.o [1]
+    .data            inited   0x2000'0038     0x40  object.o [1]
+    .data            inited   0x2000'0078     0x1c  oled.o [1]
+    .data            inited   0x2000'0094      0x4  platform_util.o [1]
+    .data            inited   0x2000'0098     0x20  stm32l4xx_hal_flash.o [1]
+    .data            inited   0x2000'00b8      0x4  system_stm32l4xx.o [1]
+    .data            inited   0x2000'00bc     0x48  xfiles.o [2]
+    .data            inited   0x2000'0104     0x48  xfiles.o [2]
+    .data            inited   0x2000'014c     0x38  xlocale_c.o [2]
+    .data            inited   0x2000'0184     0x48  xlocale_c.o [2]
+    .data            inited   0x2000'01cc      0x8  XShttio.o [2]
+                            - 0x2000'01d4    0x1d4
+
+"P2", part 2 of 3:                          0x9d84
+  .bss               zero     0x2000'01d4   0x8000  board.o [1]
+  .bss               zero     0x2000'81d4    0x804  Ali_iotclient.o [1]
+  .bss               zero     0x2000'89d8    0x6dc  emw3080.o [1]
+  .bss               zero     0x2000'90b4    0x404  emw3080_io.o [1]
+  .bss               zero     0x2000'94b8     0x54  scheduler.o [1]
+  .bss               zero     0x2000'9510    0x200  flash_l4R.o [1]
+  .bss               zero     0x2000'9710    0x1d8  dlmalloc.o [2]
+  .bss               zero     0x2000'98e8    0x178  idle.o [1]
+  .bss               zero     0x2000'9a60    0x11c  main.o [1]
+  .bss               zero     0x2000'9b7c     0x84  main.o [1]
+  .bss               zero     0x2000'9c00     0x84  shell.o [1]
+  .bss               zero     0x2000'9c84     0x80  kservice.o [1]
+  .bss               zero     0x2000'9d04     0x50  xfiles.o [2]
+  .bss               zero     0x2000'9d54     0x4c  custom_bus.o [1]
+  .bss               zero     0x2000'9da0     0x40  main.o [1]
+  .bss               zero     0x2000'9de0     0x3c  board.o [1]
+  .bss               zero     0x2000'9e1c     0x3c  emw3080.o [1]
+  .bss               zero     0x2000'9e58     0x38  mem.o [1]
+  .bss               zero     0x2000'9e90     0x2c  custom_mems_processor.o [1]
+  .bss               zero     0x2000'9ebc     0x1c  main.o [1]
+  .bss               zero     0x2000'9ed8     0x18  shell.o [1]
+  .bss               zero     0x2000'9ef0     0x18  dlmalloc.o [2]
+  .bss               zero     0x2000'9f08     0x14  wifi.o [1]
+  .bss               zero     0x2000'9f1c      0xc  timer.o [1]
+  .bss               zero     0x2000'9f28      0x4  clock.o [1]
+  .bss               zero     0x2000'9f2c      0x4  cpuport.o [1]
+  .bss               zero     0x2000'9f30      0x4  cpuport.o [1]
+  .bss               zero     0x2000'9f34      0x4  cpuport.o [1]
+  .bss               zero     0x2000'9f38      0x4  cpuport.o [1]
+  .bss               zero     0x2000'9f3c      0x4  emw3080.o [1]
+  .bss               zero     0x2000'9f40      0x4  emw3080_io.o [1]
+  .bss               zero     0x2000'9f44      0x4  main.o [1]
+  .bss               zero     0x2000'9f48      0x4  MQTTPacket.o [1]
+  .bss               zero     0x2000'9f4c      0x4  xfail_s.o [2]
+  .bss               zero     0x2000'9f50      0x4  xgetmemchunk.o [2]
+  .bss               zero     0x2000'9f54      0x1  emw3080_io.o [1]
+  .bss               zero     0x2000'9f55      0x1  irq.o [1]
+  .bss               zero     0x2000'9f56      0x1  main.o [1]
+                            - 0x2000'9f57   0x9d83
+
+"P2", part 3 of 3:                          0x1000
+  CSTACK                      0x2000'9f58    0x800  <Block>
+    CSTACK           uninit   0x2000'9f58    0x800  <Block tail>
+  HEAP                        0x2000'a758    0x800  <Block>
+    HEAP             uninit   0x2000'a758    0x800  <Block tail>
+                            - 0x2000'af58   0x1000
+
+Unused ranges:
+
+         From           To       Size
+         ----           --       ----
+   0x801'128c   0x81f'7fff  0x1e'6d74
+   0x81f'8168   0x81f'ffff     0x7e98
+  0x2000'af58  0x2009'ffff   0x9'50a8
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x9d83:
+          0x2000'01d4  0x9d83
+
+Copy/lz77 (__iar_lz77_init_single3)
+    1 source range, total size 0xf0 (51% of destination):
+           0x801'119c    0xf0
+    1 destination range, total size 0x1d4:
+          0x2000'0000   0x1d4
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                     ro code  ro data  rw data
+    ------                     -------  -------  -------
+command line/config:
+    ----------------------------------------------------
+    Total:
+
+H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj: [1]
+    Ali_iot_network_wrapper.o      180
+    Ali_iotclient.o              2 332      772    2 052
+    MQTTClient.o                 1 784       88
+    MQTTConnectClient.o            660
+    MQTTDeserializePublish.o       240
+    MQTTPacket.o                   462                 4
+    MQTTSerializePublish.o         296
+    MQTTSubscribeClient.o          328
+    Task.o                          64
+    app_x-cube-mems1.o              18
+    bh1750_i2c_drv.o                88
+    board.o                        568            32 828
+    clock.o                         90                 4
+    cmd.o                        1 524      548
+    components.o                   176       16
+    context_iar.o                  320
+    cpuport.o                    1 336                16
+    custom_bus.o                   372                76
+    custom_mems_processor.o        246                44
+    emw3080.o                    2 028      168    1 820
+    emw3080_io.o                 1 052             1 033
+    flash_l4R.o                    572      144      512
+    hts221.o                       926       28       56
+    hts221_reg.o                   384
+    idle.o                         192               376
+    iot_flash_config.o             872      804
+    ipc.o                          304
+    irq.o                           44                 1
+    kservice.o                   1 424      336      128
+    main.o                       2 016      768      513
+    md.o                           452
+    md_wrap.o                       60       56
+    mem.o                          724      128       56
+    mqtt_msg_handler.o             260       76
+    msh.o                          772       60
+    net.o                          448
+    net_tcp_wifi.o                 622       44
+    object.o                       288       33       64
+    oled.o                         456    3 350       28
+    paho_timer.o                    92
+    platform_util.o                 20        2        4
+    scheduler.o                    364                84
+    sha1.o                       4 128
+    shell.o                        948        4      156
+    startup_stm32l4r5xx.o          796
+    stm32l4xx_hal.o                 78
+    stm32l4xx_hal_cortex.o         196
+    stm32l4xx_hal_dma.o            108
+    stm32l4xx_hal_flash.o          376       17       32
+    stm32l4xx_hal_flash_ex.o       448
+    stm32l4xx_hal_gpio.o           780
+    stm32l4xx_hal_i2c.o          1 872
+    stm32l4xx_hal_i2c_ex.o         126
+    stm32l4xx_hal_msp.o            460
+    stm32l4xx_hal_pwr_ex.o         240
+    stm32l4xx_hal_rcc.o          1 908
+    stm32l4xx_hal_rcc_ex.o       1 412
+    stm32l4xx_hal_tim.o          1 528
+    stm32l4xx_hal_tim_ex.o         224
+    stm32l4xx_hal_uart.o         5 268
+    stm32l4xx_hal_uart_ex.o        282
+    stm32l4xx_it.o                  40
+    system_stm32l4xx.o             256       58        4
+    thread.o                       748
+    timer.o                        474                12
+    wifi.o                         356                20
+    wifi_net.o                     380      300
+    ----------------------------------------------------
+    Total:                      48 888    7 800   39 923
+
+dl7M_tlf.a: [2]
+    XShttio.o                       12        4        8
+    abort.o                          6
+    dlmalloc.o                   5 408               496
+    exit.o                           4
+    getchar.o                       12
+    heaptramp0.o                     4
+    iar_Stoulx.o                   332       80
+    isspace.o                       20
+    printf.o                        40
+    putchar.o                       12
+    snprintf.o                      68
+    sprintf.o                       64
+    strcat.o                        30
+    strncmp.o                       40
+    strstr.o                        48
+    tolower.o                       20
+    xencoding_8859_1.o              30
+    xfail_s.o                       64                 4
+    xfiles.o                                 74      224
+    xgetmemchunk.o                  44                 4
+    xlocale_c.o                    164       71      128
+    xmbcurmax.o                     10
+    xprintffull.o                3 910
+    xprout.o                        22
+    xsnprout.o                      26
+    xsprout.o                       10
+    ----------------------------------------------------
+    Total:                      10 400      229      864
+
+m7M_tls.a: [3]
+    DblAdd.o                       362
+    DblCmpGe.o                      46
+    DblCmpLe.o                      46
+    DblDiv.o                       582
+    DblMul.o                       418
+    DblSub.o                       226
+    DblToS32.o                      58
+    DblToU32.o                      40
+    S32ToDbl.o                      34
+    U32ToDbl.o                      26
+    fpinit_M.o                      34
+    frexp.o                        112
+    ldexp.o                        314
+    ----------------------------------------------------
+    Total:                       2 298
+
+rt7M_tl.a: [4]
+    ABImemclr.o                      6
+    ABImemclr4.o                     6
+    ABImemcpy_small.o               24
+    ABImemset48.o                   50
+    ABImemset_small.o               18
+    I64DivMod_small.o              262
+    I64DivZer.o                      2
+    cexit.o                         10
+    cmain.o                         30
+    cstartup_M.o                    12
+    data_init.o                     40
+    lz77_init_single.o             122
+    memchr.o                        88
+    memset.o                        20
+    strchr.o                        22
+    strcmp.o                        18
+    strcpy.o                        24
+    strlen_small.o                  20
+    strncpy_small.o                 30
+    zero_init3.o                    58
+    ----------------------------------------------------
+    Total:                         862
+
+shb_l.a: [5]
+    exit.o                          20
+    iarttio.o                       48
+    ----------------------------------------------------
+    Total:                          68
+
+    Gaps                            60        6        4
+    Linker created                           33    4 096
+--------------------------------------------------------
+    Grand Total:                62 576    8 068   44 887
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address    Size  Type      Object
+-----                       -------    ----  ----      ------
+.iar.init_table$$Base    0x801'0f74           --   Gb  - Linker created -
+.iar.init_table$$Limit   0x801'0f94           --   Gb  - Linker created -
+?main                    0x801'0f95          Code  Gb  cmain.o [4]
+AHBPrescTable            0x800'f900    0x10  Data  Gb  system_stm32l4xx.o [1]
+APBPrescTable            0x801'1028     0x8  Data  Gb  system_stm32l4xx.o [1]
+AtCmd                   0x2000'8fb4   0x100  Data  Lc  emw3080.o [1]
+BH1750_Dat_To_Lux        0x800'5dcf    0x22  Code  Gb  bh1750_i2c_drv.o [1]
+BH1750_Read_Dat          0x800'5db9    0x16  Code  Gb  bh1750_i2c_drv.o [1]
+BH1750_Send_Cmd          0x800'5da1    0x18  Code  Gb  bh1750_i2c_drv.o [1]
+BSP_GetTick              0x800'fd51     0x4  Code  Gb  custom_bus.o [1]
+BSP_I2C1_DeInit          0x800'fca3    0x28  Code  Gb  custom_bus.o [1]
+BSP_I2C1_Init            0x800'fc2d    0x76  Code  Gb  custom_bus.o [1]
+BSP_I2C1_ReadReg         0x800'fceb    0x20  Code  Gb  custom_bus.o [1]
+BSP_I2C1_WriteReg        0x800'fccb    0x20  Code  Gb  custom_bus.o [1]
+BusFault_Handler         0x801'0e79     0x2  Code  Gb  stm32l4xx_it.o [1]
+Button_WaitForPush       0x800'33f1    0x34  Code  Gb  main.o [1]
+CMD_Data                0x2000'0078    0x1c  Data  Gb  oled.o [1]
+CSTACK$$Base            0x2000'9f58           --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'a758           --   Gb  - Linker created -
+CacheMore                0x800'ca09    0x24  Code  Lc  xlocale_c.o [2]
+Client                  0x2000'81dc    0x68  Data  Gb  Ali_iotclient.o [1]
+DebugMon_Handler         0x801'0e7f     0x2  Code  Gb  stm32l4xx_it.o [1]
+EMW3080_CloseConnection
+                         0x800'c277    0x26  Code  Gb  emw3080.o [1]
+EMW3080_EchoOFF          0x800'bfd5     0xe  Code  Gb  emw3080.o [1]
+EMW3080_EstablishConnection
+                         0x800'c1ef    0x38  Code  Gb  emw3080.o [1]
+EMW3080_GetHostAddress   0x800'c17b    0x6e  Code  Gb  emw3080.o [1]
+EMW3080_GetIPAddress     0x800'c115    0x52  Code  Gb  emw3080.o [1]
+EMW3080_GetVersionInfo   0x800'c099    0x3e  Code  Gb  emw3080.o [1]
+EMW3080_IO_Init          0x800'36f5    0x4e  Code  Gb  emw3080_io.o [1]
+EMW3080_IO_Receive       0x800'3781    0x56  Code  Gb  emw3080_io.o [1]
+EMW3080_IO_Send          0x800'3743    0x3e  Code  Gb  emw3080_io.o [1]
+EMW3080_Init             0x800'bfc5    0x10  Code  Gb  emw3080.o [1]
+EMW3080_IsDisconnectedFromServer
+                         0x800'c241    0x28  Code  Gb  emw3080.o [1]
+EMW3080_JoinAccessPoint
+                         0x800'c0d7    0x3e  Code  Gb  emw3080.o [1]
+EMW3080_ReceiveData      0x800'c2f7    0x72  Code  Gb  emw3080.o [1]
+EMW3080_SendData         0x800'c29d    0x5a  Code  Gb  emw3080.o [1]
+EMW3080_WIFI_GetMACAddress
+                         0x800'c01f    0x6c  Code  Gb  emw3080.o [1]
+EMW3080_WaitForEvent     0x800'c369    0x3c  Code  Gb  emw3080.o [1]
+EXTI15_10_IRQHandler     0x801'0e95     0x8  Code  Gb  stm32l4xx_it.o [1]
+Error_Handler            0x800'35d9     0x2  Code  Gb  main.o [1]
+F6x8                     0x800'e774   0x228  Data  Gb  oled.o [1]
+F8X16                    0x800'e194   0x5e0  Data  Gb  oled.o [1]
+FLASH_FlushCaches        0x800'bf59    0x52  Code  Gb  stm32l4xx_hal_flash_ex.o [1]
+FLASH_MassErase          0x800'bedb    0x3a  Code  Lc  stm32l4xx_hal_flash_ex.o [1]
+FLASH_PageErase          0x800'bf15    0x44  Code  Gb  stm32l4xx_hal_flash_ex.o [1]
+FLASH_Program_DoubleWord
+                         0x800'bdaf    0x14  Code  Lc  stm32l4xx_hal_flash.o [1]
+FLASH_Program_Fast       0x800'bdc3    0x1e  Code  Lc  stm32l4xx_hal_flash.o [1]
+FLASH_WaitForLastOperation
+                         0x800'bd39    0x5c  Code  Gb  stm32l4xx_hal_flash.o [1]
+FLASH_get_bank           0x800'93d7    0x2c  Code  Gb  flash_l4R.o [1]
+FLASH_get_pageInBank     0x800'9415    0x5a  Code  Gb  flash_l4R.o [1]
+FLASH_unlock_erase       0x800'9309    0x66  Code  Gb  flash_l4R.o [1]
+FLASH_update             0x800'9471    0x92  Code  Gb  flash_l4R.o [1]
+FLASH_write_at           0x800'936f    0x68  Code  Gb  flash_l4R.o [1]
+FSymTab$$Base            0x801'08b0           --   Gb  - Linker created -
+FSymTab$$Limit           0x801'0930           --   Gb  - Linker created -
+Free_Socks_Buffer        0x800'c5d1    0x1c  Code  Gb  emw3080.o [1]
+GetHumValue              0x800'3511     0x6  Code  Gb  main.o [1]
+GetLightThreshold        0x800'3531     0x6  Code  Gb  main.o [1]
+GetLightValue            0x800'3517     0x6  Code  Gb  main.o [1]
+GetTemperatureStatus     0x800'34f7     0x6  Code  Gb  main.o [1]
+GetTemperatureValue      0x800'34fd     0x8  Code  Gb  main.o [1]
+GetTempratureThreshold   0x800'3523     0x8  Code  Gb  main.o [1]
+Get_Socks_Buffer         0x800'c617    0x12  Code  Gb  emw3080.o [1]
+HAL_DMA_Abort_IT         0x800'3689    0x6c  Code  Gb  stm32l4xx_hal_dma.o [1]
+HAL_FLASHEx_Erase        0x800'be05    0xca  Code  Gb  stm32l4xx_hal_flash_ex.o [1]
+HAL_FLASH_Program        0x800'bc8d    0x8c  Code  Gb  stm32l4xx_hal_flash.o [1]
+HAL_FLASH_Unlock         0x800'bd19    0x20  Code  Gb  stm32l4xx_hal_flash.o [1]
+HAL_GPIO_DeInit          0x800'477d   0x100  Code  Gb  stm32l4xx_hal_gpio.o [1]
+HAL_GPIO_EXTI_Callback   0x800'3425    0x10  Code  Gb  main.o [1]
+HAL_GPIO_EXTI_IRQHandler
+                         0x800'488f    0x10  Code  Gb  stm32l4xx_hal_gpio.o [1]
+HAL_GPIO_Init            0x800'45c1   0x1b2  Code  Gb  stm32l4xx_hal_gpio.o [1]
+HAL_GPIO_TogglePin       0x800'4887     0x8  Code  Gb  stm32l4xx_hal_gpio.o [1]
+HAL_GPIO_WritePin        0x800'487d     0xa  Code  Gb  stm32l4xx_hal_gpio.o [1]
+HAL_GetTick              0x800'33ed     0x4  Code  Gb  main.o [1]
+HAL_I2CEx_ConfigAnalogFilter
+                         0x800'fda1    0x2a  Code  Gb  stm32l4xx_hal_i2c_ex.o [1]
+HAL_I2CEx_ConfigDigitalFilter
+                         0x800'fdcb    0x26  Code  Gb  stm32l4xx_hal_i2c_ex.o [1]
+HAL_I2C_DeInit           0x800'7fa5    0x26  Code  Gb  stm32l4xx_hal_i2c.o [1]
+HAL_I2C_GetError         0x800'83bf     0x4  Code  Gb  stm32l4xx_hal_i2c.o [1]
+HAL_I2C_GetState         0x800'83b9     0x6  Code  Gb  stm32l4xx_hal_i2c.o [1]
+HAL_I2C_Init             0x800'7f05    0xa0  Code  Gb  stm32l4xx_hal_i2c.o [1]
+HAL_I2C_Master_Receive   0x800'806b    0x92  Code  Gb  stm32l4xx_hal_i2c.o [1]
+HAL_I2C_Master_Transmit
+                         0x800'7fdb    0x90  Code  Gb  stm32l4xx_hal_i2c.o [1]
+HAL_I2C_Mem_Read         0x800'826b    0xbc  Code  Gb  stm32l4xx_hal_i2c.o [1]
+HAL_I2C_Mem_Write        0x800'8153    0xae  Code  Gb  stm32l4xx_hal_i2c.o [1]
+HAL_Init                 0x800'f7f1    0x1e  Code  Gb  stm32l4xx_hal.o [1]
+HAL_InitTick             0x800'6ff1    0x30  Code  Wk  stm32l4xx_hal.o [1]
+HAL_MspInit              0x800'2cdd    0x2c  Code  Gb  stm32l4xx_hal_msp.o [1]
+HAL_NVIC_EnableIRQ       0x800'493b     0xa  Code  Gb  stm32l4xx_hal_cortex.o [1]
+HAL_NVIC_SetPriority     0x800'4901    0x3a  Code  Gb  stm32l4xx_hal_cortex.o [1]
+HAL_NVIC_SetPriorityGrouping
+                         0x800'48e7    0x1a  Code  Gb  stm32l4xx_hal_cortex.o [1]
+HAL_PWREx_ControlVoltageScaling
+                         0x800'44fb    0x7a  Code  Gb  stm32l4xx_hal_pwr_ex.o [1]
+HAL_PWREx_EnableVddIO2   0x800'459f     0xe  Code  Gb  stm32l4xx_hal_pwr_ex.o [1]
+HAL_PWREx_GetVoltageRange
+                         0x800'44d1    0x2a  Code  Gb  stm32l4xx_hal_pwr_ex.o [1]
+HAL_RCCEx_PeriphCLKConfig
+                         0x800'5e11   0x382  Code  Gb  stm32l4xx_hal_rcc_ex.o [1]
+HAL_RCC_ClockConfig      0x800'4093   0x192  Code  Gb  stm32l4xx_hal_rcc.o [1]
+HAL_RCC_GetPCLK1Freq     0x800'42e7    0x10  Code  Gb  stm32l4xx_hal_rcc.o [1]
+HAL_RCC_GetPCLK2Freq     0x800'42f7     0xe  Code  Gb  stm32l4xx_hal_rcc.o [1]
+HAL_RCC_GetSysClockFreq
+                         0x800'4251    0x96  Code  Gb  stm32l4xx_hal_rcc.o [1]
+HAL_RCC_OscConfig        0x800'3c45   0x42a  Code  Gb  stm32l4xx_hal_rcc.o [1]
+HAL_SYSTICK_Config       0x800'494f    0x28  Code  Gb  stm32l4xx_hal_cortex.o [1]
+HAL_TIMEx_ConfigBreakDeadTime
+                         0x800'69df    0x84  Code  Gb  stm32l4xx_hal_tim_ex.o [1]
+HAL_TIMEx_MasterConfigSynchronization
+                         0x800'698d    0x52  Code  Gb  stm32l4xx_hal_tim_ex.o [1]
+HAL_TIM_MspPostInit      0x800'2e35    0x4a  Code  Gb  stm32l4xx_hal_msp.o [1]
+HAL_TIM_PWM_ConfigChannel
+                         0x800'64ed   0x116  Code  Gb  stm32l4xx_hal_tim.o [1]
+HAL_TIM_PWM_Init         0x800'63b7    0x1a  Code  Gb  stm32l4xx_hal_tim.o [1]
+HAL_TIM_PWM_MspInit      0x800'2e13    0x22  Code  Gb  stm32l4xx_hal_msp.o [1]
+HAL_TIM_PWM_Start        0x800'63d1    0x3c  Code  Gb  stm32l4xx_hal_tim.o [1]
+HAL_TIM_PWM_Stop         0x800'6423    0x48  Code  Gb  stm32l4xx_hal_tim.o [1]
+HAL_UARTEx_DisableFifoMode
+                         0x800'3b11    0x3c  Code  Gb  stm32l4xx_hal_uart_ex.o [1]
+HAL_UARTEx_RxFifoFullCallback
+                         0x800'3c29     0x2  Code  Wk  stm32l4xx_hal_uart_ex.o [1]
+HAL_UARTEx_SetRxFifoThreshold
+                         0x800'3b63    0x14  Code  Gb  stm32l4xx_hal_uart_ex.o [1]
+HAL_UARTEx_SetTxFifoThreshold
+                         0x800'3b4d    0x16  Code  Gb  stm32l4xx_hal_uart_ex.o [1]
+HAL_UARTEx_TxFifoEmptyCallback
+                         0x800'3c27     0x2  Code  Wk  stm32l4xx_hal_uart_ex.o [1]
+HAL_UARTEx_WakeupCallback
+                         0x800'3c25     0x2  Code  Wk  stm32l4xx_hal_uart_ex.o [1]
+HAL_UART_ErrorCallback   0x800'3af1     0x2  Code  Gb  emw3080_io.o [1]
+HAL_UART_IRQHandler      0x800'1bc7   0x18a  Code  Gb  stm32l4xx_hal_uart.o [1]
+HAL_UART_Init            0x800'1849    0x30  Code  Gb  stm32l4xx_hal_uart.o [1]
+HAL_UART_MspInit         0x800'2d09    0xf6  Code  Gb  stm32l4xx_hal_msp.o [1]
+HAL_UART_Receive         0x800'1977    0xd0  Code  Gb  stm32l4xx_hal_uart.o [1]
+HAL_UART_Receive_IT      0x800'1adb    0xe4  Code  Gb  stm32l4xx_hal_uart.o [1]
+HAL_UART_RxCpltCallback
+                         0x800'382d   0x226  Code  Gb  emw3080_io.o [1]
+HAL_UART_RxCpltCallback{1}{38}::count_test1
+                        0x2000'9f40     0x4  Data  Lc  emw3080_io.o [1]
+HAL_UART_Transmit        0x800'18c9    0xae  Code  Gb  stm32l4xx_hal_uart.o [1]
+HAL_UART_Transmit_IT     0x800'1a47    0x94  Code  Gb  stm32l4xx_hal_uart.o [1]
+HAL_UART_TxCpltCallback
+                         0x800'3ab1     0x8  Code  Gb  emw3080_io.o [1]
+HEAP$$Base              0x2000'a758           --   Gb  - Linker created -
+HEAP$$Limit             0x2000'af58           --   Gb  - Linker created -
+HTS221_COMMON_Driver    0x2000'0000    0x10  Data  Gb  hts221.o [1]
+HTS221_DeInit            0x800'9af5    0x26  Code  Gb  hts221.o [1]
+HTS221_GetCapabilities   0x800'9b2b    0x1e  Code  Gb  hts221.o [1]
+HTS221_GetOutputDataRate
+                         0x800'9d25    0x40  Code  Lc  hts221.o [1]
+HTS221_HUM_Disable       0x800'9b71    0x22  Code  Gb  hts221.o [1]
+HTS221_HUM_Driver       0x2000'0010    0x14  Data  Gb  hts221.o [1]
+HTS221_HUM_Enable        0x800'9b49    0x20  Code  Gb  hts221.o [1]
+HTS221_HUM_GetHumidity   0x800'9b99    0x6a  Code  Gb  hts221.o [1]
+HTS221_HUM_GetOutputDataRate
+                         0x800'9b93     0x2  Code  Gb  hts221.o [1]
+HTS221_HUM_SetOutputDataRate
+                         0x800'9b95     0x2  Code  Gb  hts221.o [1]
+HTS221_Init              0x800'9abb    0x3a  Code  Gb  hts221.o [1]
+HTS221_ReadID            0x800'9b21     0xa  Code  Gb  hts221.o [1]
+HTS221_RegisterBusIO     0x800'9a7d    0x3e  Code  Gb  hts221.o [1]
+HTS221_SetOutputDataRate
+                         0x800'9d6d    0x26  Code  Lc  hts221.o [1]
+HTS221_TEMP_Disable      0x800'9c2b    0x22  Code  Gb  hts221.o [1]
+HTS221_TEMP_Driver      0x2000'0024    0x14  Data  Gb  hts221.o [1]
+HTS221_TEMP_Enable       0x800'9c0b    0x20  Code  Gb  hts221.o [1]
+HTS221_TEMP_GetOutputDataRate
+                         0x800'9c4d     0x2  Code  Gb  hts221.o [1]
+HTS221_TEMP_GetTemperature
+                         0x800'9c51    0x4e  Code  Gb  hts221.o [1]
+HTS221_TEMP_SetOutputDataRate
+                         0x800'9c4f     0x2  Code  Gb  hts221.o [1]
+HardFault_Handler        0x800'722f          Code  Gb  context_iar.o [1]
+Hum_Sensor_Handler       0x800'7101    0x1a  Code  Gb  custom_mems_processor.o [1]
+Hzk                      0x800'e99c   0x500  Data  Gb  oled.o [1]
+I2C_Flush_TXDR           0x800'845f    0x1c  Code  Lc  stm32l4xx_hal_i2c.o [1]
+I2C_IsAcknowledgeFailed
+                         0x800'85af    0x68  Code  Lc  stm32l4xx_hal_i2c.o [1]
+I2C_RequestMemoryRead    0x800'83fb    0x34  Code  Lc  stm32l4xx_hal_i2c.o [1]
+I2C_RequestMemoryWrite   0x800'83c5    0x36  Code  Lc  stm32l4xx_hal_i2c.o [1]
+I2C_TransferConfig       0x800'8621    0x22  Code  Lc  stm32l4xx_hal_i2c.o [1]
+I2C_WaitOnFlagUntilTimeout
+                         0x800'847b    0x42  Code  Lc  stm32l4xx_hal_i2c.o [1]
+I2C_WaitOnRXNEFlagUntilTimeout
+                         0x800'8543    0x6c  Code  Lc  stm32l4xx_hal_i2c.o [1]
+I2C_WaitOnSTOPFlagUntilTimeout
+                         0x800'850b    0x30  Code  Lc  stm32l4xx_hal_i2c.o [1]
+I2C_WaitOnTXISFlagUntilTimeout
+                         0x800'84bd    0x36  Code  Lc  stm32l4xx_hal_i2c.o [1]
+LPUART1_IRQHandler       0x800'f66f    0x48  Code  Gb  board.o [1]
+Linear_Interpolation     0x800'9dbb    0x2a  Code  Lc  hts221.o [1]
+LoadInt                  0x800'a707    0x7a  Code  Lc  xprintffull.o [2]
+MQTTCleanSession         0x800'8a05    0x12  Code  Gb  MQTTClient.o [1]
+MQTTClientInit           0x800'8803    0x48  Code  Gb  MQTTClient.o [1]
+MQTTCloseSession         0x800'8a17    0x12  Code  Gb  MQTTClient.o [1]
+MQTTConnect              0x800'8c35     0xa  Code  Gb  MQTTClient.o [1]
+MQTTConnectWithResults   0x800'8b91    0x98  Code  Gb  MQTTClient.o [1]
+MQTTDeserialize_ack      0x800'b98d    0x4c  Code  Gb  MQTTDeserializePublish.o [1]
+MQTTDeserialize_connack
+                         0x800'b81d    0x62  Code  Gb  MQTTConnectClient.o [1]
+MQTTDeserialize_publish
+                         0x800'b8f1    0x9a  Code  Gb  MQTTDeserializePublish.o [1]
+MQTTDeserialize_suback   0x800'bbc9    0x7e  Code  Gb  MQTTSubscribeClient.o [1]
+MQTTDisconnect           0x800'8e53    0x32  Code  Gb  MQTTClient.o [1]
+MQTTIsConnected          0x800'8e8f     0x4  Code  Gb  MQTTClient.o [1]
+MQTTPacket_decode        0x800'b4b3    0x3a  Code  Gb  MQTTPacket.o [1]
+MQTTPacket_decodeBuf     0x800'b52b     0x8  Code  Gb  MQTTPacket.o [1]
+MQTTPacket_encode        0x800'b48d    0x26  Code  Gb  MQTTPacket.o [1]
+MQTTPacket_equals        0x800'b625    0x36  Code  Gb  MQTTPacket.o [1]
+MQTTPacket_len           0x800'b4ed    0x22  Code  Gb  MQTTPacket.o [1]
+MQTTPublish              0x800'8d75    0xc4  Code  Gb  MQTTClient.o [1]
+MQTTSerialize_ack        0x800'ba9d    0x64  Code  Gb  MQTTSerializePublish.o [1]
+MQTTSerialize_connect    0x800'b6dd   0x136  Code  Gb  MQTTConnectClient.o [1]
+MQTTSerialize_connectLength
+                         0x800'b65d    0x7e  Code  Gb  MQTTConnectClient.o [1]
+MQTTSerialize_disconnect
+                         0x800'b8c3     0x4  Code  Gb  MQTTConnectClient.o [1]
+MQTTSerialize_pingreq    0x800'b8c7     0x4  Code  Gb  MQTTConnectClient.o [1]
+MQTTSerialize_publish    0x800'ba01    0x9a  Code  Gb  MQTTSerializePublish.o [1]
+MQTTSerialize_publishLength
+                         0x800'b9e1    0x1e  Code  Gb  MQTTSerializePublish.o [1]
+MQTTSerialize_subscribe
+                         0x800'bb31    0x98  Code  Gb  MQTTSubscribeClient.o [1]
+MQTTSerialize_subscribeLength
+                         0x800'bb09    0x28  Code  Gb  MQTTSubscribeClient.o [1]
+MQTTSerialize_zero       0x800'b881    0x42  Code  Gb  MQTTConnectClient.o [1]
+MQTTSetMessageHandler    0x800'8c3f    0x68  Code  Gb  MQTTClient.o [1]
+MQTTSubscribe            0x800'8d61     0xc  Code  Gb  MQTTClient.o [1]
+MQTTSubscribeWithResults
+                         0x800'8ca7    0xb6  Code  Gb  MQTTClient.o [1]
+MQTTYield                0x800'8b35    0x32  Code  Gb  MQTTClient.o [1]
+MQTT_Receive_entry       0x800'5d2d     0x8  Code  Gb  Task.o [1]
+MQTT_read_buf           0x2000'8254   0x200  Data  Gb  Ali_iotclient.o [1]
+MQTT_write_buf          0x2000'8454   0x200  Data  Gb  Ali_iotclient.o [1]
+MQTTstrlen               0x800'b617     0xe  Code  Gb  MQTTPacket.o [1]
+MSIRangeTable            0x801'0d94    0x30  Data  Gb  system_stm32l4xx.o [1]
+MX_MEMS_Init             0x800'4991     0x4  Code  Gb  app_x-cube-mems1.o [1]
+MX_MEMS_Process          0x800'4995     0xe  Code  Gb  app_x-cube-mems1.o [1]
+MX_TIM15_Init            0x800'328f    0x82  Code  Lc  main.o [1]
+Malloc_Socks_Buffer      0x800'c5ed    0x2a  Code  Gb  emw3080.o [1]
+Mbedtls_SHA1_HMAC_Compute
+                         0x800'59d5    0x68  Code  Gb  Ali_iotclient.o [1]
+MemManage_Handler        0x801'0e77     0x2  Code  Gb  stm32l4xx_it.o [1]
+NMI_Handler              0x801'0e75     0x2  Code  Gb  stm32l4xx_it.o [1]
+NVIC_SetPriority         0x800'48cd    0x1a  Code  Lc  stm32l4xx_hal_cortex.o [1]
+OLED_Clear               0x800'4cf5    0x2a  Code  Gb  oled.o [1]
+OLED_Init                0x800'4cf3     0x2  Code  Gb  oled.o [1]
+OLED_Set_Pos             0x800'4d1f    0x22  Code  Gb  oled.o [1]
+OLED_ShowCHinese         0x800'4dff    0x46  Code  Gb  oled.o [1]
+OLED_ShowChar            0x800'4d49    0x82  Code  Gb  oled.o [1]
+OLED_ShowString          0x800'4dcb    0x34  Code  Gb  oled.o [1]
+OLED_WR_CMD              0x800'4cbf     0xc  Code  Gb  oled.o [1]
+OLED_WR_DATA             0x800'4ccb     0xa  Code  Gb  oled.o [1]
+Parameters_message_handler
+                         0x801'019d    0x42  Code  Gb  mqtt_msg_handler.o [1]
+Parameters_message_handler_2
+                         0x801'01e1    0x36  Code  Gb  mqtt_msg_handler.o [1]
+ParseNumberFromString    0x800'c57b    0x30  Code  Gb  emw3080.o [1]
+ParseNumberFromString::value
+                        0x2000'9f3c     0x4  Data  Lc  emw3080.o [1]
+PendSV_Handler           0x800'717d          Code  Gb  context_iar.o [1]
+RCCEx_PLLSAI1_Config     0x800'61bd    0xb2  Code  Lc  stm32l4xx_hal_rcc_ex.o [1]
+RCCEx_PLLSAI2_Config     0x800'626f    0xb0  Code  Lc  stm32l4xx_hal_rcc_ex.o [1]
+RCC_SetFlashLatencyFromMSIRange
+                         0x800'430f    0x6e  Code  Lc  stm32l4xx_hal_rcc.o [1]
+ReadRegWrap              0x800'9de5    0x1a  Code  Lc  hts221.o [1]
+Region$$Table$$Base      0x801'0f74           --   Gb  - Linker created -
+Region$$Table$$Limit     0x801'0f94           --   Gb  - Linker created -
+RxBuffer                0x2000'89d8   0x5dc  Data  Gb  emw3080.o [1]
+RxBuffer2               0x2000'9b70     0x4  Data  Gb  main.o [1]
+RxFlag                  0x2000'9a60     0x1  Data  Gb  main.o [1]
+SVC_Handler              0x801'0e7d     0x2  Code  Gb  stm32l4xx_it.o [1]
+Sensor_Init              0x800'7059    0x8e  Code  Gb  custom_mems_processor.o [1]
+Service_message_handler
+                         0x801'0219    0x2e  Code  Gb  mqtt_msg_handler.o [1]
+SetHumValue              0x800'350b     0x6  Code  Gb  main.o [1]
+SetLightThreshold        0x800'352b     0x6  Code  Gb  main.o [1]
+SetTemperatureStatus     0x800'34f1     0x6  Code  Gb  main.o [1]
+SetTemperatureValue      0x800'3505     0x6  Code  Gb  main.o [1]
+SetTempratureThreshold   0x800'351d     0x6  Code  Gb  main.o [1]
+Socks_Buffer_Init        0x800'c5b1    0x20  Code  Gb  emw3080.o [1]
+StartAlarmLedBlinking    0x800'3537    0x12  Code  Gb  main.o [1]
+StopAlarmLed             0x800'358d     0x8  Code  Gb  main.o [1]
+SysTick_Handler          0x800'f79d    0x12  Code  Gb  board.o [1]
+SystemClock_Config       0x800'31cf    0x7c  Code  Gb  main.o [1]
+SystemCoreClock         0x2000'00b8     0x4  Data  Gb  system_stm32l4xx.o [1]
+SystemCoreClockUpdate    0x800'f84d    0x90  Code  Gb  system_stm32l4xx.o [1]
+SystemInit               0x800'f811    0x3c  Code  Gb  system_stm32l4xx.o [1]
+TIM_Base_SetConfig       0x800'6637    0xac  Code  Gb  stm32l4xx_hal_tim.o [1]
+TIM_CCxChannelCmd        0x800'6971    0x16  Code  Gb  stm32l4xx_hal_tim.o [1]
+TIM_OC1_SetConfig        0x800'66e3    0x7e  Code  Lc  stm32l4xx_hal_tim.o [1]
+TIM_OC2_SetConfig        0x800'6761    0x72  Code  Gb  stm32l4xx_hal_tim.o [1]
+TIM_OC3_SetConfig        0x800'67d3    0x70  Code  Lc  stm32l4xx_hal_tim.o [1]
+TIM_OC4_SetConfig        0x800'6843    0x4e  Code  Lc  stm32l4xx_hal_tim.o [1]
+TIM_OC5_SetConfig        0x800'6891    0x54  Code  Lc  stm32l4xx_hal_tim.o [1]
+TIM_OC6_SetConfig        0x800'68e5    0x4e  Code  Lc  stm32l4xx_hal_tim.o [1]
+TaskInit                 0x800'5d05    0x26  Code  Gb  Task.o [1]
+Temp_Sensor_Handler      0x800'70e7    0x1a  Code  Gb  custom_mems_processor.o [1]
+TimerCountdown           0x800'5d55     0x8  Code  Gb  paho_timer.o [1]
+TimerCountdownMS         0x800'5d45    0x10  Code  Gb  paho_timer.o [1]
+TimerInit                0x800'5d99     0x8  Code  Gb  paho_timer.o [1]
+TimerIsExpired           0x800'5d87    0x12  Code  Gb  paho_timer.o [1]
+TimerLeftMS              0x800'5d5d    0x2a  Code  Gb  paho_timer.o [1]
+UARTEx_SetNbDataToProcess
+                         0x800'3bb9    0x5a  Code  Lc  stm32l4xx_hal_uart_ex.o [1]
+UART_AdvFeatureConfig    0x800'27e9    0xc6  Code  Gb  stm32l4xx_hal_uart.o [1]
+UART_CheckIdleState      0x800'28af    0x5a  Code  Gb  stm32l4xx_hal_uart.o [1]
+UART_DMAAbortOnError     0x800'29ed    0x10  Code  Lc  stm32l4xx_hal_uart.o [1]
+UART_EndRxTransfer       0x800'2967    0x22  Code  Lc  stm32l4xx_hal_uart.o [1]
+UART_RxISR_16BIT         0x800'2b47    0x5a  Code  Lc  stm32l4xx_hal_uart.o [1]
+UART_RxISR_16BIT_FIFOEN
+                         0x800'2c11    0x56  Code  Lc  stm32l4xx_hal_uart.o [1]
+UART_RxISR_8BIT          0x800'2ae9    0x50  Code  Lc  stm32l4xx_hal_uart.o [1]
+UART_RxISR_8BIT_FIFOEN   0x800'2ba1    0x54  Code  Lc  stm32l4xx_hal_uart.o [1]
+UART_SetConfig           0x800'1d85   0xa42  Code  Gb  stm32l4xx_hal_uart.o [1]
+UART_TxISR_16BIT         0x800'2a25    0x2e  Code  Lc  stm32l4xx_hal_uart.o [1]
+UART_TxISR_16BIT_FIFOEN
+                         0x800'2a91    0x44  Code  Lc  stm32l4xx_hal_uart.o [1]
+UART_TxISR_8BIT          0x800'29fd    0x28  Code  Lc  stm32l4xx_hal_uart.o [1]
+UART_TxISR_8BIT_FIFOEN   0x800'2a53    0x3e  Code  Lc  stm32l4xx_hal_uart.o [1]
+UART_WaitOnFlagUntilTimeout
+                         0x800'2909    0x5e  Code  Gb  stm32l4xx_hal_uart.o [1]
+USART2_IRQHandler        0x801'0e81     0x6  Code  Gb  stm32l4xx_it.o [1]
+USART3_IRQHandler        0x801'0e87     0x6  Code  Gb  stm32l4xx_it.o [1]
+UartTxDone              0x2000'9f54     0x1  Data  Gb  emw3080_io.o [1]
+UsageFault_Handler       0x801'0e7b     0x2  Code  Gb  stm32l4xx_it.o [1]
+VSymTab$$Base                   0x0           --   Gb  - Linker created -
+VSymTab$$Limit                  0x0           --   Gb  - Linker created -
+WIFI_CloseClientConnection
+                         0x800'9635    0x1a  Code  Gb  wifi.o [1]
+WIFI_Connect             0x800'9575     0x8  Code  Gb  wifi.o [1]
+WIFI_GetHostAddress      0x800'9599    0x16  Code  Gb  wifi.o [1]
+WIFI_GetIP_Address       0x800'958d     0xc  Code  Gb  wifi.o [1]
+WIFI_GetMAC_Address      0x800'957d     0x6  Code  Gb  wifi.o [1]
+WIFI_GetModuleFwRevision
+                         0x800'968b     0x8  Code  Gb  wifi.o [1]
+WIFI_Init                0x800'9549    0x2c  Code  Gb  wifi.o [1]
+WIFI_OpenClientConnection
+                         0x800'95b1    0x7e  Code  Gb  wifi.o [1]
+WIFI_ReceiveData         0x800'966b    0x20  Code  Gb  wifi.o [1]
+WIFI_SendData            0x800'964f    0x1c  Code  Gb  wifi.o [1]
+WiFiRxBuffer            0x2000'90b4   0x404  Data  Gb  emw3080_io.o [1]
+WriteCmd                 0x800'4c91    0x2e  Code  Gb  oled.o [1]
+WriteRegWrap             0x800'9e01    0x1a  Code  Lc  hts221.o [1]
+_Encoding_8859_1_Mbrlen
+                         0x800'1801     0x2  Code  Gb  xencoding_8859_1.o [2]
+_Encoding_8859_1_Wctomb
+                         0x800'17ef    0x12  Code  Gb  xencoding_8859_1.o [2]
+_GenldFull               0x800'b165   0x274  Code  Lc  xprintffull.o [2]
+_LdtobFull               0x800'ad61   0x3d6  Code  Lc  xprintffull.o [2]
+_LitobFull               0x800'ac11   0x10a  Code  Lc  xprintffull.o [2]
+_LocaleC_isspace         0x800'c9e5    0x14  Code  Gb  xlocale_c.o [2]
+_LocaleC_isupper         0x800'c9d9     0x2  Code  Gb  xlocale_c.o [2]
+_LocaleC_tolower         0x800'c9f9     0xc  Code  Gb  xlocale_c.o [2]
+_Locale_lconv           0x2000'014c    0x38  Data  Lc  xlocale_c.o [2]
+_PrintfFull              0x800'a545   0x1aa  Code  Gb  xprintffull.o [2]
+_Prout                   0x801'0fc3    0x16  Code  Gb  xprout.o [2]
+_PutcharsFull            0x800'b3d9    0x2e  Code  Lc  xprintffull.o [2]
+_PutfldFull              0x800'a781   0x2d4  Code  Lc  xprintffull.o [2]
+_PutstrFull              0x800'ab4b    0xc6  Code  Lc  xprintffull.o [2]
+_PuttxtFull              0x800'aa55    0xf6  Code  Lc  xprintffull.o [2]
+_SNProut                 0x800'3c2b    0x1a  Code  Gb  xsnprout.o [2]
+_SProut                  0x800'44bf     0xa  Code  Gb  xsprout.o [2]
+__aeabi_cdcmple          0x800'ccf5          Code  Gb  DblCmpLe.o [3]
+__aeabi_cdrcmple         0x800'cd25          Code  Gb  DblCmpGe.o [3]
+__aeabi_d2iz             0x800'92c1          Code  Gb  DblToS32.o [3]
+__aeabi_d2uiz            0x800'cf99          Code  Gb  DblToU32.o [3]
+__aeabi_ddiv             0x800'9079          Code  Gb  DblDiv.o [3]
+__aeabi_dmul             0x800'cae1          Code  Gb  DblMul.o [3]
+__aeabi_dsub             0x800'ceb5          Code  Gb  DblSub.o [3]
+__aeabi_i2d              0x800'ce91          Code  Gb  S32ToDbl.o [3]
+__aeabi_ldiv0            0x800'7021          Code  Gb  I64DivZer.o [4]
+__aeabi_memclr           0x800'1789          Code  Gb  ABImemclr.o [4]
+__aeabi_memclr4          0x800'44c9          Code  Gb  ABImemclr4.o [4]
+__aeabi_ui2d             0x800'905d          Code  Gb  U32ToDbl.o [3]
+__cmain                  0x801'0f95          Code  Gb  cmain.o [4]
+__data_GetMemChunk       0x800'175d    0x2c  Code  Gb  xgetmemchunk.o [2]
+__data_GetMemChunk::start
+                        0x2000'9f50     0x4  Data  Lc  xgetmemchunk.o [2]
+__exit                   0x800'17c9    0x14  Code  Gb  exit.o [5]
+__fsym___cmd_free        0x801'0928     0x8  Data  Gb  msh.o [1]
+__fsym___cmd_free_name   0x801'0f44     0xc  Data  Gb  msh.o [1]
+__fsym___cmd_help        0x801'0918     0x8  Data  Gb  msh.o [1]
+__fsym___cmd_help_name   0x801'0f2c     0xc  Data  Gb  msh.o [1]
+__fsym___cmd_list_mailbox
+                         0x801'08f0     0x8  Data  Gb  cmd.o [1]
+__fsym___cmd_list_mailbox_name
+                         0x801'0658    0x14  Data  Gb  cmd.o [1]
+__fsym___cmd_list_sem    0x801'08e0     0x8  Data  Gb  cmd.o [1]
+__fsym___cmd_list_sem_name
+                         0x801'0638    0x10  Data  Gb  cmd.o [1]
+__fsym___cmd_list_thread
+                         0x801'08d0     0x8  Data  Gb  cmd.o [1]
+__fsym___cmd_list_thread_name
+                         0x801'0618    0x14  Data  Gb  cmd.o [1]
+__fsym___cmd_list_timer
+                         0x801'0900     0x8  Data  Gb  cmd.o [1]
+__fsym___cmd_list_timer_name
+                         0x801'0678    0x14  Data  Gb  cmd.o [1]
+__fsym___cmd_ps          0x801'0920     0x8  Data  Gb  msh.o [1]
+__fsym___cmd_ps_name     0x801'0f38     0xc  Data  Gb  msh.o [1]
+__fsym___cmd_version     0x801'08c0     0x8  Data  Gb  cmd.o [1]
+__fsym___cmd_version_name
+                         0x801'05fc    0x10  Data  Gb  cmd.o [1]
+__fsym_hello             0x801'08b0     0x8  Data  Gb  cmd.o [1]
+__fsym_hello_name        0x801'05ec     0x8  Data  Gb  cmd.o [1]
+__fsym_list              0x801'0908     0x8  Data  Gb  cmd.o [1]
+__fsym_list_mailbox      0x801'08e8     0x8  Data  Gb  cmd.o [1]
+__fsym_list_mailbox_name
+                         0x801'0648    0x10  Data  Gb  cmd.o [1]
+__fsym_list_mem          0x801'0910     0x8  Data  Gb  mem.o [1]
+__fsym_list_mem_name     0x801'1008     0xc  Data  Gb  mem.o [1]
+__fsym_list_name         0x801'068c     0x8  Data  Gb  cmd.o [1]
+__fsym_list_sem          0x801'08d8     0x8  Data  Gb  cmd.o [1]
+__fsym_list_sem_name     0x801'062c     0xc  Data  Gb  cmd.o [1]
+__fsym_list_thread       0x801'08c8     0x8  Data  Gb  cmd.o [1]
+__fsym_list_thread_name
+                         0x801'060c     0xc  Data  Gb  cmd.o [1]
+__fsym_list_timer        0x801'08f8     0x8  Data  Gb  cmd.o [1]
+__fsym_list_timer_name   0x801'066c     0xc  Data  Gb  cmd.o [1]
+__fsym_version           0x801'08b8     0x8  Data  Gb  cmd.o [1]
+__fsym_version_name      0x801'05f4     0x8  Data  Gb  cmd.o [1]
+__iar_Fail_s             0x800'ca95    0x1c  Code  Gb  xfail_s.o [2]
+__iar_Mbcurmax           0x800'cad5     0xa  Code  Gb  xmbcurmax.o [2]
+__iar_Memchr             0x800'c7d9          Code  Gb  memchr.o [4]
+__iar_Memset4_word       0x800'7025          Code  Gb  ABImemset48.o [4]
+__iar_Memset8_word       0x800'7025          Code  Gb  ABImemset48.o [4]
+__iar_Stdin             0x2000'00bc    0x48  Data  Gb  xfiles.o [2]
+__iar_Stdout            0x2000'0104    0x48  Data  Gb  xfiles.o [2]
+__iar_Stoulx             0x800'991d   0x13a  Code  Gb  iar_Stoulx.o [2]
+__iar_Strchr             0x800'ca7d          Code  Gb  strchr.o [4]
+__iar_close_ttio         0x800'180d    0x2e  Code  Gb  iarttio.o [5]
+__iar_dadd               0x800'cec5          Code  Gb  DblSub.o [3]
+__iar_data_init3         0x800'f9c9    0x28  Code  Gb  data_init.o [4]
+__iar_dlcalloc           0x800'1691    0x3e  Code  Gb  dlmalloc.o [2]
+__iar_dlfree             0x800'119b   0x4f6  Code  Gb  dlmalloc.o [2]
+__iar_dlmalloc           0x800'0ee5   0x2b6  Code  Gb  dlmalloc.o [2]
+__iar_dsub               0x800'd009          Code  Gb  DblAdd.o [3]
+__iar_dsubStart          0x800'd01b          Code  Gb  DblAdd.o [3]
+__iar_frexp              0x800'cc91          Code  Gb  frexp.o [3]
+__iar_frexpl             0x800'cc91          Code  Gb  frexp.o [3]
+__iar_globLocale        0x2000'0184    0x48  Data  Lc  xlocale_c.o [2]
+__iar_global_Locale      0x800'ca05     0x4  Code  Gb  xlocale_c.o [2]
+__iar_init_vfp           0x801'0f51          Code  Gb  fpinit_M.o [3]
+__iar_ldexp64            0x800'cd55          Code  Gb  ldexp.o [3]
+__iar_lookup_ttioh       0x800'183d     0x4  Code  Gb  XShttio.o [2]
+__iar_lz77_init_single3
+                         0x800'16e3    0x7a  Code  Gb  lz77_init_single.o [4]
+__iar_program_start      0x801'1015          Code  Gb  cstartup_M.o [4]
+__iar_scalbln64          0x800'cd55          Code  Gb  ldexp.o [3]
+__iar_scalbn64           0x800'cd55          Code  Gb  ldexp.o [3]
+__iar_small_Memcpy       0x800'5dfd          Code  Gb  ABImemcpy_small.o [4]
+__iar_small_Memset       0x800'17dd          Code  Gb  ABImemset_small.o [4]
+__iar_small_Memset_word
+                         0x800'17dd          Code  Gb  ABImemset_small.o [4]
+__iar_small_memcpy       0x800'5df9          Code  Gb  ABImemcpy_small.o [4]
+__iar_small_memcpy4      0x800'5df9          Code  Gb  ABImemcpy_small.o [4]
+__iar_small_memcpy8      0x800'5df9          Code  Gb  ABImemcpy_small.o [4]
+__iar_small_memset       0x800'17dd          Code  Gb  ABImemset_small.o [4]
+__iar_small_strlen       0x800'8699          Code  Gb  strlen_small.o [4]
+__iar_small_strncpy      0x800'f251          Code  Gb  strncpy_small.o [4]
+__iar_small_uldivmod     0x800'43b9          Code  Gb  I64DivMod_small.o [4]
+__iar_softfp___iar_frexp64
+                         0x800'cc85          Code  Gb  frexp.o [3]
+__iar_softfp_frexp       0x800'cc85          Code  Gb  frexp.o [3]
+__iar_softfp_frexpl      0x800'cc85          Code  Gb  frexp.o [3]
+__iar_ttio_handles      0x2000'01cc     0x8  Data  Lc  XShttio.o [2]
+__iar_zero_init3         0x800'178f    0x3a  Code  Gb  zero_init3.o [4]
+__low_level_init         0x800'f93d     0xe  Code  Gb  components.o [1]
+__lowest_bit_bitmap      0x801'02a0   0x100  Data  Gb  kservice.o [1]
+__rt_ffs                 0x800'533b    0x3a  Code  Gb  kservice.o [1]
+__rt_init_finsh_system_init
+                         0x801'1044     0x4  Data  Gb  shell.o [1]
+__rt_init_rti_board_end
+                         0x801'1040     0x4  Data  Gb  components.o [1]
+__rt_init_rti_board_start
+                         0x801'103c     0x4  Data  Gb  components.o [1]
+__rt_init_rti_end        0x801'1048     0x4  Data  Gb  components.o [1]
+__rt_init_rti_start      0x801'1038     0x4  Data  Gb  components.o [1]
+__vector_table           0x800'0000          Data  Gb  startup_stm32l4r5xx.o [1]
+_call_main               0x801'0fa1          Code  Gb  cmain.o [4]
+_exit                    0x801'0fb9          Code  Gb  cexit.o [4]
+_gLocale_mblen           0x800'ca69     0x4  Code  Gb  xlocale_c.o [2]
+_gLocale_mblenInt        0x800'ca2d    0x2c  Code  Gb  xlocale_c.o [2]
+_gLocale_wctomb          0x800'ca6d     0x4  Code  Gb  xlocale_c.o [2]
+_gLocale_wctombInt       0x800'ca65     0x4  Code  Gb  xlocale_c.o [2]
+_gm_                    0x2000'9710   0x1d8  Data  Lc  dlmalloc.o [2]
+_main                    0x801'0faf          Code  Gb  cmain.o [4]
+_msh_exec_cmd            0x800'f37f    0x92  Code  Lc  msh.o [1]
+_rt_thread_init          0x800'4a0d    0x6a  Code  Lc  thread.o [1]
+_rt_timer_init           0x800'7a69    0x1c  Code  Lc  timer.o [1]
+_rt_timer_remove         0x800'7a85    0x20  Code  Lc  timer.o [1]
+_syscall_table_begin    0x2000'9ed8     0x4  Data  Gb  shell.o [1]
+_syscall_table_end      0x2000'9edc     0x4  Data  Gb  shell.o [1]
+_sysvar_table_begin     0x2000'9ee0     0x4  Data  Gb  shell.o [1]
+_sysvar_table_end       0x2000'9ee4     0x4  Data  Gb  shell.o [1]
+abort                    0x800'16dd     0x6  Code  Gb  abort.o [2]
+add_segment              0x800'0585   0x1f2  Code  Lc  dlmalloc.o [2]
+alarm_pub_timer         0x2000'9ed0     0x8  Data  Gb  main.o [1]
+atoi                     0x800'9a5d     0x2  Code  Gb  iar_Stoulx.o [2]
+bufchar                  0x800'b50f    0x1c  Code  Gb  MQTTPacket.o [1]
+bufptr                  0x2000'9f48     0x4  Data  Lc  MQTTPacket.o [1]
+build_mqtt_topic         0x800'540d    0xd6  Code  Gb  Ali_iotclient.o [1]
+button_flags            0x2000'9f56     0x1  Data  Lc  main.o [1]
+checkDeviceConfig        0x800'6cc1    0x1e  Code  Gb  iot_flash_config.o [1]
+checkWiFiCredentials     0x800'6ac5    0x40  Code  Gb  iot_flash_config.o [1]
+clearAlarm_topic        0x2000'88ac    0x64  Data  Gb  Ali_iotclient.o [1]
+cmd_free                 0x800'f2c1     0xa  Code  Gb  msh.o [1]
+cmd_ps                   0x800'f2b7     0xa  Code  Gb  msh.o [1]
+conn                    0x2000'9f08    0x14  Data  Gb  wifi.o [1]
+connect2Aliiothub        0x800'5627    0xc0  Code  Gb  Ali_iotclient.o [1]
+connect2MQTTServer       0x800'56e9   0x104  Code  Gb  Ali_iotclient.o [1]
+cycle                    0x800'8a29   0x10c  Code  Gb  MQTTClient.o [1]
+dat                     0x2000'9b6c     0x2  Data  Gb  main.o [1]
+deliverMessage           0x800'890f    0xa6  Code  Gb  MQTTClient.o [1]
+deviceAlarmPub           0x800'589d    0x48  Code  Gb  Ali_iotclient.o [1]
+deviceStatusPub          0x800'57ed    0xb0  Code  Gb  Ali_iotclient.o [1]
+deviceSubscribe          0x800'58e5    0x58  Code  Gb  Ali_iotclient.o [1]
+device_s                0x2000'9ebc     0x8  Data  Gb  main.o [1]
+digits                   0x801'0b88    0x28  Data  Lc  iar_Stoulx.o [2]
+doMqttYield              0x800'5949     0x8  Code  Gb  Ali_iotclient.o [1]
+exit                     0x801'0fb3     0x4  Code  Gb  exit.o [2]
+fgetc                    0x800'3451    0x22  Code  Gb  main.o [1]
+finsh_get_prompt         0x800'ee9d    0x50  Code  Gb  shell.o [1]
+finsh_get_prompt::finsh_prompt
+                        0x2000'9c00    0x84  Data  Lc  shell.o [1]
+finsh_prompt_custom     0x2000'9eec     0x4  Data  Lc  shell.o [1]
+finsh_set_prompt_mode    0x800'eeed     0xe  Code  Gb  shell.o [1]
+finsh_system_init        0x800'f175    0x64  Code  Gb  shell.o [1]
+finsh_thread_entry       0x800'ef01   0x24c  Code  Gb  shell.o [1]
+fputc                    0x800'3435    0x1c  Code  Gb  main.o [1]
+free                     0x800'9545     0x4  Code  Gb  heaptramp0.o [2]
+getData                  0x800'c4fd    0x6c  Code  Lc  emw3080.o [1]
+getDeviceName            0x800'6c6b    0x1e  Code  Gb  iot_flash_config.o [1]
+getDeviceSecret          0x800'6ca3    0x1e  Code  Gb  iot_flash_config.o [1]
+getInputString           0x800'6a6d    0x58  Code  Lc  iot_flash_config.o [1]
+getLightThresholdInFlash
+                         0x800'6d49    0x24  Code  Gb  iot_flash_config.o [1]
+getNextPacketId          0x800'87a1    0x14  Code  Lc  MQTTClient.o [1]
+getProductKey            0x800'6c4d    0x1e  Code  Gb  iot_flash_config.o [1]
+getRegionId              0x800'6c25    0x28  Code  Gb  iot_flash_config.o [1]
+getTempThresholdInFlash
+                         0x800'6cdf    0x24  Code  Gb  iot_flash_config.o [1]
+get_mqtt_client_id       0x800'54f5    0x22  Code  Gb  Ali_iotclient.o [1]
+get_mqtt_password        0x800'554d    0xda  Code  Gb  Ali_iotclient.o [1]
+get_mqtt_server_addr     0x800'53e9    0x24  Code  Gb  Ali_iotclient.o [1]
+get_mqtt_username        0x800'5529    0x24  Code  Gb  Ali_iotclient.o [1]
+getchar                  0x800'92fd     0x6  Code  Gb  getchar.o [2]
+hard_fault_track         0x800'7551   0x170  Code  Lc  cpuport.o [1]
+heap_end                0x2000'9e5c     0x4  Data  Lc  mem.o [1]
+heap_ptr                0x2000'9e58     0x4  Data  Lc  mem.o [1]
+heap_sem                0x2000'9e70    0x20  Data  Lc  mem.o [1]
+hello                    0x800'9e2f     0xe  Code  Gb  cmd.o [1]
+hi2c1                   0x2000'9d54    0x4c  Data  Gb  custom_bus.o [1]
+hlpuart1                0x2000'9b7c    0x84  Data  Gb  main.o [1]
+hnet                    0x2000'9f44     0x4  Data  Gb  main.o [1]
+htim15                  0x2000'9da0    0x40  Data  Gb  main.o [1]
+hts221_block_data_update_set
+                         0x800'c895    0x16  Code  Gb  hts221_reg.o [1]
+hts221_data_rate_get     0x800'c861    0x34  Code  Gb  hts221_reg.o [1]
+hts221_data_rate_set     0x800'c849    0x16  Code  Gb  hts221_reg.o [1]
+hts221_device_id_get     0x800'c8df     0x8  Code  Gb  hts221_reg.o [1]
+hts221_hum_adc_point_0_get
+                         0x800'c991     0x8  Code  Gb  hts221_reg.o [1]
+hts221_hum_adc_point_1_get
+                         0x800'c999     0x8  Code  Gb  hts221_reg.o [1]
+hts221_hum_rh_point_0_get
+                         0x800'c907     0xc  Code  Gb  hts221_reg.o [1]
+hts221_hum_rh_point_1_get
+                         0x800'c913     0xa  Code  Gb  hts221_reg.o [1]
+hts221_humidity_raw_get
+                         0x800'c8cf     0x8  Code  Gb  hts221_reg.o [1]
+hts221_obj_0            0x2000'9e90    0x2c  Data  Gb  custom_mems_processor.o [1]
+hts221_power_on_set      0x800'c8e7    0x12  Code  Gb  hts221_reg.o [1]
+hts221_read_reg          0x800'c831     0xc  Code  Gb  hts221_reg.o [1]
+hts221_temp_adc_point_0_get
+                         0x800'c9a1     0x8  Code  Gb  hts221_reg.o [1]
+hts221_temp_adc_point_1_get
+                         0x800'c9a9     0x8  Code  Gb  hts221_reg.o [1]
+hts221_temp_deg_point_0_get
+                         0x800'c929    0x28  Code  Gb  hts221_reg.o [1]
+hts221_temp_deg_point_1_get
+                         0x800'c951    0x28  Code  Gb  hts221_reg.o [1]
+hts221_temperature_raw_get
+                         0x800'c8d7     0x8  Code  Gb  hts221_reg.o [1]
+hts221_write_reg         0x800'c83d     0xc  Code  Gb  hts221_reg.o [1]
+huart2                  0x2000'9a64    0x84  Data  Gb  main.o [1]
+huart3                  0x2000'9ae8    0x84  Data  Gb  main.o [1]
+idle                    0x2000'98e8    0x78  Data  Lc  idle.o [1]
+initApplication          0x800'3323    0x52  Code  Gb  main.o [1]
+initPlatform             0x800'3375    0x78  Code  Gb  main.o [1]
+init_mparams             0x800'01d7    0x32  Code  Lc  dlmalloc.o [2]
+init_top                 0x800'0209    0x36  Code  Lc  dlmalloc.o [2]
+isspace                  0x800'c7b1    0x14  Code  Gb  isspace.o [2]
+keepalive                0x800'89b5    0x50  Code  Gb  MQTTClient.o [1]
+lUserConfig              0x81f'8000   0x168  Data  Gb  iot_flash_config.o [1]
+ldexp                    0x800'cd55          Code  Gb  ldexp.o [3]
+ldexpl                   0x800'cd55          Code  Gb  ldexp.o [3]
+lfree                   0x2000'9e60     0x4  Data  Lc  mem.o [1]
+light_threshold_topic   0x2000'8848    0x64  Data  Gb  Ali_iotclient.o [1]
+list                     0x800'a22d    0x3c  Code  Gb  cmd.o [1]
+list_find_init           0x800'9e5f    0x20  Code  Lc  cmd.o [1]
+list_get_next            0x800'9e7f    0x5c  Code  Lc  cmd.o [1]
+list_mailbox             0x800'a0a5    0xa8  Code  Gb  cmd.o [1]
+list_mem                 0x800'7e69    0x22  Code  Gb  mem.o [1]
+list_sem                 0x800'9fed    0x98  Code  Gb  cmd.o [1]
+list_thread              0x800'9edb    0xe6  Code  Gb  cmd.o [1]
+list_timer               0x800'a175    0x96  Code  Gb  cmd.o [1]
+localeconv               0x800'ca71     0x4  Code  Gb  xlocale_c.o [2]
+main                     0x800'2ea9   0x316  Code  Gb  main.o [1]
+main_thread_entry        0x800'f94b     0xe  Code  Gb  components.o [1]
+main{3}{4}{8}{9}{15}{16}{17}{18}::Tem_string
+                        0x2000'9b74     0x8  Data  Lc  main.o [1]
+max_mem                 0x2000'9e6c     0x4  Data  Lc  mem.o [1]
+mbedtls_internal_sha1_process
+                         0x800'd1b5   0xdf8  Code  Gb  sha1.o [1]
+mbedtls_md_free          0x800'8eb3    0x36  Code  Gb  md.o [1]
+mbedtls_md_hmac_finish   0x800'8ff7    0x5a  Code  Gb  md.o [1]
+mbedtls_md_hmac_starts   0x800'8f23    0xb2  Code  Gb  md.o [1]
+mbedtls_md_hmac_update   0x800'8fd5    0x1c  Code  Gb  md.o [1]
+mbedtls_md_info_from_type
+                         0x800'8e99     0xe  Code  Gb  md.o [1]
+mbedtls_md_init          0x800'8ea7     0xc  Code  Gb  md.o [1]
+mbedtls_md_setup         0x800'8ee9    0x3a  Code  Gb  md.o [1]
+mbedtls_platform_zeroize
+                         0x800'bc51    0x14  Code  Gb  platform_util.o [1]
+mbedtls_sha1_clone       0x800'd187     0x6  Code  Gb  sha1.o [1]
+mbedtls_sha1_finish_ret
+                         0x800'e061    0xe8  Code  Gb  sha1.o [1]
+mbedtls_sha1_free        0x800'd17b     0xc  Code  Gb  sha1.o [1]
+mbedtls_sha1_info        0x801'0d34    0x30  Data  Gb  md_wrap.o [1]
+mbedtls_sha1_init        0x800'd175     0x6  Code  Gb  sha1.o [1]
+mbedtls_sha1_ret         0x800'e153    0x42  Code  Gb  sha1.o [1]
+mbedtls_sha1_starts_ret
+                         0x800'd18d    0x28  Code  Gb  sha1.o [1]
+mbedtls_sha1_update_ret
+                         0x800'dfe9    0x78  Code  Gb  sha1.o [1]
+mem_size_aligned        0x2000'9e64     0x4  Data  Lc  mem.o [1]
+memchr                   0x800'c7d9          Code  Gb  memchr.o [4]
+memset                   0x801'0fe5    0x14  Code  Gb  memset.o [4]
+memset_func             0x2000'0094     0x4  Data  Lc  platform_util.o [1]
+mparams                 0x2000'9ef0    0x18  Data  Lc  dlmalloc.o [2]
+mqttDisconnect           0x800'597b    0x1c  Code  Gb  Ali_iotclient.o [1]
+mqtt_client_id          0x2000'86b8    0x64  Data  Gb  Ali_iotclient.o [1]
+mqtt_client_password    0x2000'8780    0x64  Data  Gb  Ali_iotclient.o [1]
+mqtt_client_username    0x2000'871c    0x64  Data  Gb  Ali_iotclient.o [1]
+mqtt_connect_network     0x800'86ed    0x3e  Code  Gb  Ali_iot_network_wrapper.o [1]
+mqtt_host_address       0x2000'8654    0x64  Data  Gb  Ali_iotclient.o [1]
+mqtt_network_new         0x800'876b    0x14  Code  Gb  Ali_iot_network_wrapper.o [1]
+mqtt_socket_disconnect   0x800'874f    0x1c  Code  Gb  Ali_iot_network_wrapper.o [1]
+mqtt_socket_recv         0x800'873d    0x12  Code  Gb  Ali_iot_network_wrapper.o [1]
+mqtt_socket_send         0x800'872b    0x12  Code  Gb  Ali_iot_network_wrapper.o [1]
+msh_auto_complete        0x800'f45d    0xa8  Code  Gb  msh.o [1]
+msh_exec                 0x800'f411    0x4c  Code  Gb  msh.o [1]
+msh_help                 0x800'f275    0x42  Code  Gb  msh.o [1]
+msh_is_used              0x800'f271     0x4  Code  Gb  msh.o [1]
+msh_split                0x800'f2cd    0xb2  Code  Lc  msh.o [1]
+myitoa                   0x800'37d7    0x54  Code  Gb  emw3080_io.o [1]
+ndigs                    0x801'0b60    0x28  Data  Lc  iar_Stoulx.o [2]
+net_get_ip_address       0x800'6e27    0x3c  Code  Gb  net.o [1]
+net_get_mac_address      0x800'6e63    0x2c  Code  Gb  net.o [1]
+net_if_init              0x800'fab1    0xd6  Code  Gb  wifi_net.o [1]
+net_init                 0x800'6dd5    0x52  Code  Gb  net.o [1]
+net_sock_close           0x800'6f31     0x4  Code  Gb  net.o [1]
+net_sock_close_tcp_wifi
+                         0x800'98cd    0x1c  Code  Gb  net_tcp_wifi.o [1]
+net_sock_create          0x800'6e8f    0x1c  Code  Gb  net.o [1]
+net_sock_create_tcp_wifi
+                         0x800'96ad    0x68  Code  Gb  net_tcp_wifi.o [1]
+net_sock_destroy         0x800'6f35     0x4  Code  Gb  net.o [1]
+net_sock_destroy_tcp_wifi
+                         0x800'98e9    0x32  Code  Gb  net_tcp_wifi.o [1]
+net_sock_open            0x800'6eab     0x4  Code  Gb  net.o [1]
+net_sock_open_tcp_wifi   0x800'9715    0x84  Code  Gb  net_tcp_wifi.o [1]
+net_sock_recv            0x800'6f29     0x4  Code  Gb  net.o [1]
+net_sock_recv_tcp_wifi   0x800'97a5    0xae  Code  Gb  net_tcp_wifi.o [1]
+net_sock_send            0x800'6f2d     0x4  Code  Gb  net.o [1]
+net_sock_send_tcp_wifi   0x800'9855    0x76  Code  Gb  net_tcp_wifi.o [1]
+net_sock_setopt          0x800'6eb1    0x72  Code  Gb  net.o [1]
+net_timeout_left_ms      0x800'6f39    0x14  Code  Gb  net.o [1]
+object_split             0x800'9e47    0x18  Code  Lc  cmd.o [1]
+obuf                    0x2000'9d04    0x50  Data  Lc  xfiles.o [2]
+pFlash                  0x2000'0098    0x20  Data  Gb  stm32l4xx_hal_flash.o [1]
+page_cache              0x2000'9510   0x200  Data  Gb  flash_l4R.o [1]
+payload_buf             0x2000'81d4     0x8  Data  Gb  Ali_iotclient.o [1]
+plug_holes               0x800'7c31    0x52  Code  Lc  mem.o [1]
+prepend_alloc            0x800'023f   0x346  Code  Lc  dlmalloc.o [2]
+print_number             0x800'4f63   0x140  Code  Lc  kservice.o [1]
+print_number::large_digits
+                         0x800'53d4    0x14  Data  Lc  kservice.o [1]
+print_number::small_digits
+                         0x800'53c0    0x14  Data  Lc  kservice.o [1]
+printf                   0x800'bc65    0x28  Code  Gb  printf.o [2]
+pullSocketData           0x800'c449    0xb4  Code  Lc  emw3080.o [1]
+putchar                  0x801'0fd9     0xc  Code  Gb  putchar.o [2]
+readChar                 0x800'b553     0xc  Code  Gb  MQTTPacket.o [1]
+readInt                  0x800'b541    0x12  Code  Gb  MQTTPacket.o [1]
+readMQTTLenString        0x800'b5e7    0x30  Code  Gb  MQTTPacket.o [1]
+readPacket               0x800'884b    0xc4  Code  Lc  MQTTClient.o [1]
+rebuildMQTTConnection    0x800'5951    0x2a  Code  Gb  Ali_iotclient.o [1]
+regular_pub_timer       0x2000'9ec8     0x8  Data  Gb  main.o [1]
+rt_application_init      0x800'f959    0x22  Code  Gb  components.o [1]
+rt_calloc                0x800'7dcf    0x1c  Code  Gb  mem.o [1]
+rt_components_board_init
+                         0x800'f921     0x8  Code  Gb  components.o [1]
+rt_components_init       0x800'f929     0x6  Code  Gb  components.o [1]
+rt_current_priority     0x2000'94b8     0x1  Data  Gb  scheduler.o [1]
+rt_current_thread       0x2000'94fc     0x4  Data  Gb  scheduler.o [1]
+rt_enter_critical        0x800'73af    0x16  Code  Gb  scheduler.o [1]
+rt_exception_hook       0x2000'9f38     0x4  Data  Lc  cpuport.o [1]
+rt_exit_critical         0x800'73c5    0x30  Code  Gb  scheduler.o [1]
+rt_free                  0x800'7ded    0x6e  Code  Gb  mem.o [1]
+rt_heap                 0x2000'01d4  0x8000  Data  Lc  board.o [1]
+rt_hw_board_init         0x800'f6b9    0xcc  Code  Gb  board.o [1]
+rt_hw_console_getchar    0x800'f643    0x2c  Code  Gb  board.o [1]
+rt_hw_console_output     0x800'324b    0x44  Code  Gb  main.o [1]
+rt_hw_context_switch     0x800'715f          Code  Gb  context_iar.o [1]
+rt_hw_context_switch_interrupt
+                         0x800'715f          Code  Gb  context_iar.o [1]
+rt_hw_context_switch_to
+                         0x800'71e9          Code  Gb  context_iar.o [1]
+rt_hw_hard_fault_exception
+                         0x800'76c1    0xca  Code  Gb  cpuport.o [1]
+rt_hw_interrupt_disable
+                         0x800'7151          Code  Gb  context_iar.o [1]
+rt_hw_interrupt_enable   0x800'7159          Code  Gb  context_iar.o [1]
+rt_hw_interrupt_thread_switch
+                         0x800'722d          Code  Gb  context_iar.o [1]
+rt_hw_stack_init         0x800'751d    0x34  Code  Gb  cpuport.o [1]
+rt_interrupt_enter       0x800'f7c5    0x10  Code  Gb  irq.o [1]
+rt_interrupt_from_thread
+                        0x2000'9f2c     0x4  Data  Gb  cpuport.o [1]
+rt_interrupt_leave       0x800'f7d5     0xe  Code  Gb  irq.o [1]
+rt_interrupt_nest       0x2000'9f55     0x1  Data  Gb  irq.o [1]
+rt_interrupt_to_thread  0x2000'9f30     0x4  Data  Gb  cpuport.o [1]
+rt_ipc_list_resume       0x800'a46f     0xe  Code  Lc  ipc.o [1]
+rt_ipc_list_suspend      0x800'a431    0x3e  Code  Lc  ipc.o [1]
+rt_ipc_object_init       0x800'a425     0xc  Code  Lc  ipc.o [1]
+rt_kprintf               0x800'531d    0x1e  Code  Gb  kservice.o [1]
+rt_kprintf::rt_log_buf  0x2000'9c84    0x80  Data  Lc  kservice.o [1]
+rt_list_init             0x800'a411     0x6  Code  Lc  ipc.o [1]
+rt_list_init             0x800'7291     0x6  Code  Lc  scheduler.o [1]
+rt_list_init             0x800'7a55     0x6  Code  Lc  timer.o [1]
+rt_list_insert_after     0x800'73fd     0xe  Code  Lc  object.o [1]
+rt_list_insert_after     0x800'49a5     0xe  Code  Lc  thread.o [1]
+rt_list_insert_after     0x800'7a5b     0xe  Code  Lc  timer.o [1]
+rt_list_insert_before    0x800'a417     0xe  Code  Lc  ipc.o [1]
+rt_list_len              0x800'9e1d    0x12  Code  Lc  cmd.o [1]
+rt_list_remove           0x800'740b    0x12  Code  Lc  object.o [1]
+rt_list_remove           0x800'49b3    0x12  Code  Lc  thread.o [1]
+rt_malloc                0x800'7ced    0xe2  Code  Gb  mem.o [1]
+rt_memmove               0x800'4ea1    0x36  Code  Gb  kservice.o [1]
+rt_memset                0x800'4e59    0x48  Code  Gb  kservice.o [1]
+rt_object_allocate       0x800'7493    0x3c  Code  Gb  object.o [1]
+rt_object_container     0x2000'0038    0x40  Data  Lc  object.o [1]
+rt_object_delete         0x800'74e5    0x1a  Code  Gb  object.o [1]
+rt_object_detach         0x800'747f    0x14  Code  Gb  object.o [1]
+rt_object_get_information
+                         0x800'741d    0x1c  Code  Gb  object.o [1]
+rt_object_init           0x800'7441    0x3e  Code  Gb  object.o [1]
+rt_object_is_systemobject
+                         0x800'7511     0xc  Code  Gb  object.o [1]
+rt_ringbuffer_data_len   0x800'f595    0x36  Code  Gb  board.o [1]
+rt_ringbuffer_getchar    0x800'f611    0x32  Code  Gb  board.o [1]
+rt_ringbuffer_init       0x800'f5cb    0x10  Code  Gb  board.o [1]
+rt_ringbuffer_putchar    0x800'f5db    0x36  Code  Gb  board.o [1]
+rt_schedule              0x800'72e5    0x46  Code  Gb  scheduler.o [1]
+rt_schedule_insert_thread
+                         0x800'732b    0x46  Code  Gb  scheduler.o [1]
+rt_schedule_remove_thread
+                         0x800'7371    0x36  Code  Gb  scheduler.o [1]
+rt_scheduler_lock_nest  0x2000'94ba     0x2  Data  Lc  scheduler.o [1]
+rt_sem_init              0x800'a47d    0x1e  Code  Gb  ipc.o [1]
+rt_sem_release           0x800'a509    0x38  Code  Gb  ipc.o [1]
+rt_sem_take              0x800'a49b    0x68  Code  Gb  ipc.o [1]
+rt_show_version          0x800'4f0f    0x32  Code  Gb  kservice.o [1]
+rt_strlen                0x800'4eff    0x10  Code  Gb  kservice.o [1]
+rt_strncpy               0x800'4ed7    0x28  Code  Gb  kservice.o [1]
+rt_system_heap_init      0x800'7c85    0x68  Code  Gb  mem.o [1]
+rt_system_scheduler_init
+                         0x800'7297    0x2e  Code  Gb  scheduler.o [1]
+rt_system_scheduler_start
+                         0x800'72c5    0x20  Code  Gb  scheduler.o [1]
+rt_system_timer_init     0x800'7c23     0x4  Code  Gb  timer.o [1]
+rt_system_timer_thread_init
+                         0x800'7c2d     0x2  Code  Gb  timer.o [1]
+rt_thread_create         0x800'4aef    0x4a  Code  Gb  thread.o [1]
+rt_thread_defunct       0x2000'9504     0x8  Data  Gb  scheduler.o [1]
+rt_thread_exit           0x800'49c5    0x48  Code  Gb  thread.o [1]
+rt_thread_idle_entry     0x800'fa65     0x8  Code  Lc  idle.o [1]
+rt_thread_idle_excute    0x800'f9f1    0x74  Code  Gb  idle.o [1]
+rt_thread_idle_init      0x800'fa6d    0x30  Code  Gb  idle.o [1]
+rt_thread_init           0x800'4a77    0x38  Code  Gb  thread.o [1]
+rt_thread_mdelay         0x800'4bd9     0xc  Code  Gb  thread.o [1]
+rt_thread_priority_table
+                        0x2000'94bc    0x40  Data  Gb  scheduler.o [1]
+rt_thread_ready_priority_group
+                        0x2000'9500     0x4  Data  Gb  scheduler.o [1]
+rt_thread_resume         0x800'4c1d    0x30  Code  Gb  thread.o [1]
+rt_thread_self           0x800'4aaf     0x6  Code  Gb  thread.o [1]
+rt_thread_sleep          0x800'4b95    0x3e  Code  Gb  thread.o [1]
+rt_thread_stack         0x2000'9960   0x100  Data  Lc  idle.o [1]
+rt_thread_startup        0x800'4ab5    0x28  Code  Gb  thread.o [1]
+rt_thread_suspend        0x800'4be5    0x30  Code  Gb  thread.o [1]
+rt_thread_switch_interrupt_flag
+                        0x2000'9f34     0x4  Data  Gb  cpuport.o [1]
+rt_thread_timeout        0x800'4c61    0x20  Code  Gb  thread.o [1]
+rt_thread_yield          0x800'4b39    0x5c  Code  Gb  thread.o [1]
+rt_tick                 0x2000'9f28     0x4  Data  Lc  clock.o [1]
+rt_tick_from_millisecond
+                         0x800'6fc9    0x26  Code  Gb  clock.o [1]
+rt_tick_get              0x800'6f95     0x6  Code  Gb  clock.o [1]
+rt_tick_increase         0x800'6f9b    0x26  Code  Gb  clock.o [1]
+rt_timer_check           0x800'7bc9    0x5a  Code  Gb  timer.o [1]
+rt_timer_control         0x800'7b9d    0x2c  Code  Gb  timer.o [1]
+rt_timer_detach          0x800'7acd    0x1a  Code  Gb  timer.o [1]
+rt_timer_init            0x800'7aa5    0x28  Code  Gb  timer.o [1]
+rt_timer_list           0x2000'9f1c     0x8  Data  Lc  timer.o [1]
+rt_timer_start           0x800'7ae7    0x7e  Code  Gb  timer.o [1]
+rt_timer_start::random_nr
+                        0x2000'9f24     0x4  Data  Lc  timer.o [1]
+rt_timer_stop            0x800'7b6b    0x28  Code  Gb  timer.o [1]
+rt_vsnprintf             0x800'50a3   0x272  Code  Gb  kservice.o [1]
+rti_board_end            0x800'f919     0x4  Code  Lc  components.o [1]
+rti_board_start          0x800'f915     0x4  Code  Lc  components.o [1]
+rti_end                  0x800'f91d     0x4  Code  Lc  components.o [1]
+rti_start                0x800'f911     0x4  Code  Lc  components.o [1]
+rtthread_startup         0x800'f98d    0x2a  Code  Gb  components.o [1]
+runAtCmd                 0x800'c3a9    0x96  Code  Lc  emw3080.o [1]
+sNetwork                0x2000'8244    0x10  Data  Gb  Ali_iotclient.o [1]
+scalbln                  0x800'cd55          Code  Gb  ldexp.o [3]
+scalblnl                 0x800'cd55          Code  Gb  ldexp.o [3]
+scalbn                   0x800'cd55          Code  Gb  ldexp.o [3]
+scalbnl                  0x800'cd55          Code  Gb  ldexp.o [3]
+scale                    0x800'ad1b    0x46  Code  Lc  xprintffull.o [2]
+sec_hand                0x2000'9f4c     0x4  Data  Lc  xfail_s.o [2]
+segment_holding          0x800'01bd    0x1a  Code  Lc  dlmalloc.o [2]
+sendAlarmFlag           0x2000'9ec4     0x1  Data  Gb  main.o [1]
+sendPacket               0x800'87b5    0x4e  Code  Lc  MQTTClient.o [1]
+sha1_clone_wrap          0x801'0ce7     0x4  Code  Lc  md_wrap.o [1]
+sha1_ctx_alloc           0x801'0cd1    0x16  Code  Lc  md_wrap.o [1]
+sha1_ctx_free            0x801'0ceb    0x12  Code  Lc  md_wrap.o [1]
+sha1_finish_wrap         0x801'0ccd     0x4  Code  Lc  md_wrap.o [1]
+sha1_process_wrap        0x801'0cfd     0x4  Code  Lc  md_wrap.o [1]
+sha1_starts_wrap         0x801'0cc5     0x4  Code  Lc  md_wrap.o [1]
+sha1_update_wrap         0x801'0cc9     0x4  Code  Lc  md_wrap.o [1]
+shell                   0x2000'9ee8     0x4  Data  Gb  shell.o [1]
+shell_rx_sem            0x2000'9dfc    0x20  Data  Lc  board.o [1]
+show_wait_queue          0x800'9fc1    0x2a  Code  Lc  cmd.o [1]
+skip_atoi                0x800'4f41    0x22  Code  Lc  kservice.o [1]
+snprintf                 0x800'8655    0x44  Code  Gb  snprintf.o [2]
+socks_buffer            0x2000'9e1c    0x3c  Data  Gb  emw3080.o [1]
+sprintf                  0x800'86ad    0x40  Code  Gb  sprintf.o [2]
+startAlarmLedOn          0x800'3551    0x10  Code  Gb  main.o [1]
+strcat                   0x800'f575    0x1e  Code  Gb  strcat.o [2]
+strchr                   0x800'ca7d          Code  Gb  strchr.o [4]
+strcmp                   0x800'9a69          Code  Gb  strcmp.o [4]
+strcpy                   0x800'cfc1          Code  Gb  strcpy.o [4]
+strncmp                  0x800'c9b1    0x28  Code  Gb  strncmp.o [2]
+strstr                   0x800'cfd9    0x30  Code  Gb  strstr.o [2]
+sys_alloc                0x800'077d   0x164  Code  Lc  dlmalloc.o [2]
+sys_trim                 0x800'08e1    0x64  Code  Lc  dlmalloc.o [2]
+tempAlarm_topic         0x2000'8910    0x64  Data  Gb  Ali_iotclient.o [1]
+temp_hum_topic          0x2000'8974    0x64  Data  Gb  Ali_iotclient.o [1]
+threshold_topic         0x2000'87e4    0x64  Data  Gb  Ali_iotclient.o [1]
+tmalloc_large            0x800'0951   0x386  Code  Lc  dlmalloc.o [2]
+tmalloc_small            0x800'0cd7   0x200  Code  Lc  dlmalloc.o [2]
+tolower                  0x800'c7c5    0x14  Code  Gb  tolower.o [2]
+uart_rx_buf             0x2000'9de0    0x10  Data  Gb  board.o [1]
+uart_rxcb               0x2000'9df0     0xc  Data  Gb  board.o [1]
+updateDeviceConfig       0x800'6b9d    0x7e  Code  Gb  iot_flash_config.o [1]
+updateDeviceTemperatureStatus
+                         0x800'3473    0x70  Code  Gb  main.o [1]
+updateLightThreshold     0x800'6d11     0xc  Code  Gb  iot_flash_config.o [1]
+updateTempThreshold      0x800'6d03     0xe  Code  Gb  iot_flash_config.o [1]
+updateWiFiCredentials    0x800'6b05    0x8e  Code  Gb  iot_flash_config.o [1]
+used_mem                0x2000'9e68     0x4  Data  Lc  mem.o [1]
+version                  0x800'9e3d     0xa  Code  Gb  cmd.o [1]
+waitfor                  0x800'8b67    0x2a  Code  Gb  MQTTClient.o [1]
+writeCString             0x800'b589    0x28  Code  Gb  MQTTPacket.o [1]
+writeChar                0x800'b55f     0xc  Code  Gb  MQTTPacket.o [1]
+writeInt                 0x800'b56b    0x1e  Code  Gb  MQTTPacket.o [1]
+writeMQTTString          0x800'b5b1    0x36  Code  Gb  MQTTPacket.o [1]
+
+
+[1] = H:\备份\STM32-AliyunIoT-Paho_v1.1.0\EWARM\STM32-AliyunIoT-Paho\Obj
+[2] = dl7M_tlf.a
+[3] = m7M_tls.a
+[4] = rt7M_tl.a
+[5] = shb_l.a
+
+  62 576 bytes of readonly  code memory
+   8 068 bytes of readonly  data memory
+  44 887 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
